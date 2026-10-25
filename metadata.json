@@ -1,0 +1,8 @@
+{
+  "name": "Apex Papers",
+  "description": "Grade 12 full curriculum and past paper practice engine",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,2475 @@
+## MODULE 1: SHOCK
+
+**Question 1:** What is shock in the context of emergency care?
+- A) A psychological response to fear
+- B) A condition where not enough blood circulates to the cells of the body
+- C) A sudden loss of consciousness only
+- D) A rapid heart rate unrelated to blood circulation
+
+**Answer: B**
+
+---
+
+**Question 2:** What does shock commonly accompany?
+- A) Only minor injuries
+- B) No injuries at all
+- C) Most injuries to a greater or lesser extent
+- D) Only head injuries
+
+**Answer: C**
+
+---
+
+**Question 3:** What can shock lead to if not treated?
+- A) Improved consciousness
+- B) Increased oxygen supply
+- C) Quick death
+- D) Natural recovery without intervention
+
+**Answer: C**
+
+---
+
+**Question 4:** What is one cause of shock related to the heart?
+- A) Low blood pressure only
+- B) Malfunction of the heart or cardiac arrest
+- C) Rapid heartbeat with no consequences
+- D) Normal heart function
+
+**Answer: B**
+
+---
+
+**Question 5:** How does internal bleeding contribute to shock?
+- A) It increases blood supply
+- B) It reduces the amount of blood that can be pumped around the body
+- C) It has no effect on circulation
+- D) It strengthens the heart
+
+**Answer: B**
+
+---
+
+**Question 6:** How does external bleeding contribute to shock?
+- A) It improves oxygen delivery
+- B) It reduces the amount of blood available to be pumped around the body
+- C) It has no impact on circulation
+- D) It increases cellular oxygen
+
+**Answer: B**
+
+---
+
+**Question 7:** What lung malfunction can cause shock?
+- A) Normal breathing
+- B) A breathing problem that reduces oxygen in the blood
+- C) Increased oxygen production
+- D) Improved lung function
+
+**Answer: B**
+
+---
+
+**Question 8:** How does pain contribute to the development of shock?
+- A) It has no role
+- B) It always prevents shock
+- C) Wounds and dislocations that cause pain can lead to shock
+- D) Pain reverses shock
+
+**Answer: C**
+
+---
+
+**Question 9:** What is the primary consequence of insufficient oxygen reaching body tissues?
+- A) Improved muscle function
+- B) Increased consciousness
+- C) Cell damage and potential death
+- D) Better circulation
+
+**Answer: C**
+
+---
+
+**Question 10:** Which of the following is NOT mentioned as a cause of shock in the manual?
+- A) Heart malfunction
+- B) Internal bleeding
+- C) Excessive food consumption
+- D) Lung malfunction
+
+**Answer: C**
+
+---
+
+## MODULE 2: UNCONSCIOUSNESS AND LEVELS OF CONSCIOUSNESS
+
+**Question 11:** What does the AVPU scale measure?
+- A) Blood pressure readings
+- B) Levels of consciousness
+- C) Breathing rate accuracy
+- D) Heart rate variations
+
+**Answer: B**
+
+---
+
+**Question 12:** What does "ALERT" mean on the AVPU scale?
+- A) The person is asleep
+- B) The person is awake and responding normally
+- C) The person responds only to pain
+- D) The person is completely unresponsive
+
+**Answer: B**
+
+---
+
+**Question 13:** What does "VERBAL RESPONSE ONLY" indicate on the AVPU scale?
+- A) Full normal consciousness
+- B) Complete unconsciousness
+- C) The casualty is sleepy, disorientated, and responds to direct questions only
+- D) The casualty is in pain
+
+**Answer: C**
+
+---
+
+**Question 14:** What does "PAIN RESPONSE ONLY" mean?
+- A) The person is alert and talking
+- B) The person is not moving and responds only to pain stimuli
+- C) The person is conscious but ignoring you
+- D) The person has no pain sensation
+
+**Answer: B**
+
+---
+
+**Question 15:** What does "UNCONSCIOUS" mean on the AVPU scale?
+- A) The person is sleeping normally
+- B) The casualty does not respond in any way to 'Tap and Talk'
+- C) The person is conscious but quiet
+- D) The person responds only verbally
+
+**Answer: B**
+
+---
+
+**Question 16:** How long can a casualty be unconscious before being classified as an immediate casualty?
+- A) Longer than 30 seconds
+- B) Longer than 1 minute
+- C) Longer than 2 minutes
+- D) Longer than 5 minutes
+
+**Answer: C**
+
+---
+
+**Question 17:** What is one reason a person may lose consciousness?
+- A) Eating too much
+- B) Shock
+- C) Studying hard
+- D) Physical exercise
+
+**Answer: B**
+
+---
+
+**Question 18:** What is a medical emergency risk for unconscious casualties?
+- A) They feel more comfortable
+- B) They cannot swallow, so excess saliva and vomit may be breathed into the lungs or block the airway
+- C) They breathe more deeply
+- D) They recover faster
+
+**Answer: B**
+
+---
+
+**Question 19:** What should be asked to test verbal response?
+- A) A complex mathematical question
+- B) A qualifying question that only requires a nod or yes/no answer
+- C) Questions about their personal life
+- D) No questions should be asked
+
+**Answer: B**
+
+---
+
+**Question 20:** What should be done if a casualty is unconscious and breathing normally?
+- A) Leave them on their back
+- B) Keep them standing
+- C) Place them in recovery position
+- D) Apply CPR immediately
+
+**Answer: C**
+
+---
+
+## MODULE 3: FRACTURES AND DISLOCATIONS
+
+**Question 21:** What is a dislocation?
+- A) A break in the bone
+- B) An injury where a bone is moved out of its normal position at a joint
+- C) A severe bruise
+- D) A separation of muscles
+
+**Answer: B**
+
+---
+
+**Question 22:** What should be done to prevent movement at the site of a dislocation?
+- A) Force it back into position
+- B) Allow normal movement
+- C) Immobilize the injured limb in a natural position with a splint or sling
+- D) Apply heat immediately
+
+**Answer: C**
+
+---
+
+**Question 23:** What is a fracture?
+- A) A muscle tear
+- B) A break in the bone
+- C) Joint stiffness
+- D) Temporary bone displacement
+
+**Answer: B**
+
+---
+
+**Question 24:** Which type of fracture penetrates through the skin?
+- A) Closed fracture
+- B) Open fracture
+- C) Stress fracture
+- D) Hairline fracture
+
+**Answer: B**
+
+---
+
+**Question 25:** Which type of fracture does NOT penetrate through the skin?
+- A) Open fracture
+- B) Compound fracture
+- C) Closed fracture
+- D) Penetrating fracture
+
+**Answer: C**
+
+---
+
+**Question 26:** What is a complicated fracture?
+- A) A simple break with no complications
+- B) A fracture involving nerve or blood vessel injury
+- C) A fracture that heals quickly
+- D) A minor crack in the bone
+
+**Answer: B**
+
+---
+
+**Question 27:** How can you suspect a break in the bone?
+- A) Only through X-ray
+- B) By looking at the scenario of what happened and assessing the injured person
+- C) By ignoring all physical signs
+- D) Only through blood tests
+
+**Answer: B**
+
+---
+
+**Question 28:** What should NOT be done with a dislocated joint?
+- A) Immobilize it
+- B) Check for circulation below the dislocation
+- C) Force it back into position
+- D) Apply a splint
+
+**Answer: C**
+
+---
+
+**Question 29:** What is a sprain?
+- A) An overstretching or tearing of ligaments
+- B) A muscle tear
+- C) A bone fracture
+- D) A nerve injury
+
+**Answer: A**
+
+---
+
+**Question 30:** What is a strain?
+- A) An overstretching of ligaments
+- B) A bone fracture
+- C) An overstretching or tearing of muscles and tendons
+- D) A joint dislocation
+
+**Answer: C**
+
+---
+
+## MODULE 4: IMMOBILIZING INJURIES
+
+**Question 31:** What is the primary purpose of splinting?
+- A) To keep the injured area clean
+- B) To immobilize an injured extremity and reduce pain
+- C) To increase blood flow
+- D) To accelerate healing
+
+**Answer: B**
+
+---
+
+**Question 32:** When should splinting NOT be used?
+- A) For all injuries
+- B) When splinting causes more pain
+- C) When moving a casualty to get medical help
+- D) Never
+
+**Answer: B**
+
+---
+
+**Question 33:** In what position should an injury be splinted?
+- A) In the position of alignment
+- B) In the position in which the injured area was found
+- C) In the most comfortable position
+- D) Always straightened
+
+**Answer: B**
+
+---
+
+**Question 34:** What should be immobilized when splinting?
+- A) Only the injury site
+- B) The injury and joints above and below the injury site
+- C) Only surrounding tissue
+- D) Nothing specific
+
+**Answer: B**
+
+---
+
+**Question 35:** What should be checked before and after splinting?
+- A) Only pain level
+- B) Circulation and sensation
+- C) Only skin color
+- D) Nothing needs checking
+
+**Answer: B**
+
+---
+
+**Question 36:** What is an anatomic splint?
+- A) A rigid board
+- B) A soft material
+- C) The person's own body used as a splint
+- D) A commercially made device
+
+**Answer: C**
+
+---
+
+**Question 37:** Which of the following can be used as a soft splint?
+- A) A wooden board only
+- B) Metal strips
+- C) A folded blanket, towel, pillow, or folded triangular bandage
+- D) Nothing else
+
+**Answer: C**
+
+---
+
+**Question 38:** What materials can be used as rigid splints?
+- A) Only metal
+- B) Boards, folded magazines/newspapers, or metal strips without sharp edges
+- C) Only plastic
+- D) Paper only
+
+**Answer: B**
+
+---
+
+**Question 39:** What is a sling?
+- A) A rigid splint
+- B) A specific kind of soft splint using a triangular bandage to support an injured arm, wrist, or hand
+- C) An elastic bandage
+- D) A compression wrap
+
+**Answer: B**
+
+---
+
+**Question 40:** How should an arm be positioned for splinting?
+- A) Always straightened completely
+- B) In the position in which it was found or in the position the victim is holding it
+- C) Always above the head
+- D) Always at the side
+
+**Answer: B**
+
+---
+
+## MODULE 5: RICE TREATMENT
+
+**Question 41:** What does RICE stand for?
+- A) Rest, Infection, Compression, Evaluation
+- B) Rest, Ice, Compression, Elevation
+- C) Recover, Ice, Cleanse, Extend
+- D) Rest, Inflammation, Circulation, Exercise
+
+**Answer: B**
+
+---
+
+**Question 42:** How long should ice packs be applied in RICE treatment?
+- A) 2-5 minutes
+- B) 5-15 minutes
+- C) 20-30 minutes
+- D) 45-60 minutes
+
+**Answer: B**
+
+---
+
+**Question 43:** After how long should ice be reapplied?
+- A) Every 15 minutes
+- B) After 1 hour
+- C) After 2 hours
+- D) Every week
+
+**Answer: C**
+
+---
+
+**Question 44:** What does compression in RICE treatment refer to?
+- A) Forcing the injury
+- B) Applying a compression bandage while ensuring it is not too tight
+- C) Wrapping tightly regardless of circulation
+- D) Cold compress only
+
+**Answer: B**
+
+---
+
+**Question 45:** Why is elevation important in RICE treatment?
+- A) To increase pain
+- B) To reduce swelling and promote drainage
+- C) To restrict movement permanently
+- D) To apply heat
+
+**Answer: B**
+
+---
+
+**Question 46:** What should be checked when applying compression?
+- A) Only the tightness
+- B) Colour, warmth, and sensation in the limb
+- C) Only temperature
+- D) Nothing needs checking
+
+**Answer: B**
+
+---
+
+**Question 47:** When should RICE be used?
+- A) For all types of injuries
+- B) For chronic conditions only
+- C) For acute muscle, ligament, and bone injuries
+- D) Never
+
+**Answer: C**
+
+---
+
+**Question 48:** What does "Rest" mean in RICE treatment?
+- A) Continue all activity
+- B) Stop all activity
+- C) Only rest the mind
+- D) Moderate activity is fine
+
+**Answer: B**
+
+---
+
+**Question 49:** Is RICE treatment used before or after medical attention?
+- A) Only at hospital
+- B) Immediately as basic treatment for acute injuries
+- C) After several days
+- D) Never
+
+**Answer: B**
+
+---
+
+**Question 50:** What is NOT part of RICE treatment?
+- A) Rest
+- B) Ice
+- C) Compression
+- D) Heating
+
+**Answer: D**
+
+---
+
+## MODULE 6: CORONARY HEART DISEASE (CHD)
+
+**Question 51:** What is Coronary Heart Disease (CHD)?
+- A) A condition affecting the liver
+- B) A condition where blood flow through coronary arteries becomes insufficient
+- C) An infection of the heart lining
+- D) A disorder affecting only the lungs
+
+**Answer: B**
+
+---
+
+**Question 52:** What is one risk factor for CHD we cannot change?
+- A) Smoking
+- B) Lack of exercise
+- C) Age, gender, or family history
+- D) Being overweight
+
+**Answer: C**
+
+---
+
+**Question 53:** What is one risk factor for CHD we can change?
+- A) Family history
+- B) Age
+- C) Gender
+- D) Smoking
+
+**Answer: D**
+
+---
+
+**Question 54:** What causes the most common symptom of a heart attack?
+- A) Muscle soreness
+- B) A sudden and severe blockage in a coronary artery cutting off blood supply to the heart muscle
+- C) Lung infection
+- D) Dehydration
+
+**Answer: B**
+
+---
+
+**Question 55:** What is angina?
+- A) Sudden cardiac arrest
+- B) Gradual narrowing of arteries causing chest pain with mild exertion that fades after rest
+- C) A lung condition
+- D) Permanent heart damage
+
+**Answer: B**
+
+---
+
+**Question 56:** How long can heart attack pain last?
+- A) Only seconds
+- B) Usually a few minutes
+- C) Several hours
+- D) A few weeks
+
+**Answer: C**
+
+---
+
+**Question 57:** What symptoms can accompany heart attack pain?
+- A) Only chest pain
+- B) Only shortness of breath
+- C) Sweating, faintness, giddiness, nausea, or breathlessness
+- D) Fever only
+
+**Answer: C**
+
+---
+
+**Question 58:** Is angina pain relieved by rest?
+- A) No, it worsens
+- B) Sometimes
+- C) Yes, it usually fades after a few minutes rest
+- D) Never
+
+**Answer: C**
+
+---
+
+**Question 59:** What is cardiac arrest?
+- A) A decrease in heart rate
+- B) When the heart stops beating
+- C) Irregular heartbeat
+- D) Mild chest discomfort
+
+**Answer: B**
+
+---
+
+**Question 60:** What can result from the severe effects of a blocked artery in cardiac arrest?
+- A) Improved circulation
+- B) Ventricular fibrillation
+- C) Increased oxygen
+- D) Normal heartbeat
+
+**Answer: B**
+
+---
+
+## MODULE 7: BURNS
+
+**Question 61:** How many degrees of burn severity are there?
+- A) Two
+- B) Three
+- C) Four
+- D) Five
+
+**Answer: B**
+
+---
+
+**Question 62:** What is a superficial burn (1st degree)?
+- A) A black burn with charred edges
+- B) A very red, painful burn with blisters affecting only the upper layer of skin
+- C) A burn affecting the entire skin thickness
+- D) A burn that causes no pain
+
+**Answer: B**
+
+---
+
+**Question 63:** What does a partial thickness burn (2nd degree) damage?
+- A) Only the upper layer of skin
+- B) The middle or lower layer of skin, appearing red/waxy white and very painful
+- C) Only nerve endings
+- D) Only subcutaneous tissue
+
+**Answer: B**
+
+---
+
+**Question 64:** What is a full thickness burn (3rd degree)?
+- A) A minor burn
+- B) A black burn with charred edges with no pain as nerve endings are destroyed
+- C) A superficial burn
+- D) A burn affecting only the surface
+
+**Answer: B**
+
+---
+
+**Question 65:** What is the immediate treatment for burns?
+- A) Apply creams or home remedies immediately
+- B) Cool the burned area with cold water for 15-30 minutes
+- C) Wrap tightly with bandages
+- D) Apply ice directly to skin
+
+**Answer: B**
+
+---
+
+**Question 66:** What should NOT be applied to burns?
+- A) Cold water
+- B) Sterile dressings
+- C) Creams or home remedies
+- D) Medical attention
+
+**Answer: C**
+
+---
+
+**Question 67:** How large must a burn be to need medical attention?
+- A) Any visible burn
+- B) Larger than a coin
+- C) Larger than an R5 coin
+- D) Only if it's a third-degree burn
+
+**Answer: C**
+
+---
+
+**Question 68:** What should NOT be done for burns?
+- A) Cool with water
+- B) Break blisters or pull off stuck clothing
+- C) Cover the area
+- D) Seek medical help if large
+
+**Answer: B**
+
+---
+
+**Question 69:** What are common agents that cause burns?
+- A) Only heat
+- B) Thermal (heat/hot water), chemical, and electrical
+- C) Only electricity
+- D) Only chemicals
+
+**Answer: B**
+
+---
+
+**Question 70:** Can burns be life-threatening?
+- A) No, never
+- B) Only if they are very large
+- C) Yes, they can be life-threatening and result in long, painful rehabilitation
+- D) Only in elderly people
+
+**Answer: C**
+
+---
+
+## MODULE 8: CRISIS CONDITIONS - ASTHMA
+
+**Question 71:** What is asthma characterized by?
+- A) High blood pressure only
+- B) Swelling of airway lining and spasm of muscles encircling the airways
+- C) Infection of the lungs
+- D) Permanent lung damage
+
+**Answer: B**
+
+---
+
+**Question 72:** Can asthma be reversed?
+- A) No, it is permanent
+- B) Yes, with rest only
+- C) Yes, with inhaled medications (bronchi-dilators)
+- D) Only with surgery
+
+**Answer: C**
+
+---
+
+**Question 73:** What do bronchi-dilators do?
+- A) Increase swelling
+- B) Relax muscles and reduce swelling to allow easier breathing
+- C) Block airways
+- D) Increase mucus production
+
+**Answer: B**
+
+---
+
+**Question 74:** What is a spacer used for in asthma treatment?
+- A) To store inhalers
+- B) To help the casualty inhale their medication, especially if they have difficulty with inhalers
+- C) To measure lung capacity
+- D) To prevent asthma attacks
+
+**Answer: B**
+
+---
+
+**Question 75:** Can asthma be a life-threatening emergency?
+- A) No, it is always minor
+- B) Rarely
+- C) Yes, it is classified as a crisis condition
+- D) Only in children
+
+**Answer: C**
+
+---
+
+## MODULE 9: CRISIS CONDITIONS - DIABETES
+
+**Question 76:** What is diabetes characterized by?
+- A) Low blood sugar levels only
+- B) Blood sugar that is too high
+- C) Infection of the pancreas
+- D) Thyroid disorder
+
+**Answer: B**
+
+---
+
+**Question 77:** What hormone controls sugar levels in the body?
+- A) Adrenaline
+- B) Insulin
+- C) Cortisol
+- D) Thyroid hormone
+
+**Answer: B**
+
+---
+
+**Question 78:** What happens in diabetics?
+- A) They produce too much insulin
+- B) There is either not enough insulin or it does not work properly
+- C) They never need treatment
+- D) Insulin production increases
+
+**Answer: B**
+
+---
+
+**Question 79:** What should be given to a conscious diabetic casualty in an emergency?
+- A) Insulin immediately
+- B) Water only
+- C) A biscuit and cheese or something sweet to eat
+- D) Nothing until medical help arrives
+
+**Answer: C**
+
+---
+
+**Question 80:** Can diabetic emergencies be controlled?
+- A) No, they are uncontrollable
+- B) Sometimes
+- C) Yes, by injecting insulin to control sugar levels
+- D) Never
+
+**Answer: C**
+
+---
+
+## MODULE 10: CRISIS CONDITIONS - EPILEPSY
+
+**Question 81:** What is epilepsy?
+- A) A temporary loss of consciousness from shock
+- B) A long-term condition resulting from disturbances in brain impulses causing loss of consciousness
+- C) An infection of the brain
+- D) A heart condition
+
+**Answer: B**
+
+---
+
+**Question 82:** Are all seizures caused by epilepsy?
+- A) Yes, always
+- B) No, a single seizure does not mean the person has epilepsy
+- C) Only in adults
+- D) Only in children
+
+**Answer: B**
+
+---
+
+**Question 83:** What types of seizures can epilepsy cause?
+- A) Only quick seizures
+- B) Quick seizures that may not be noticed or seizures affecting the entire body
+- C) Only whole-body seizures
+- D) No visible seizures
+
+**Answer: B**
+
+---
+
+**Question 84:** What danger does epilepsy pose in water?
+- A) No particular danger
+- B) It causes swimming to be easier
+- C) Loss of consciousness can lead to drowning
+- D) It improves buoyancy
+
+**Answer: C**
+
+---
+
+**Question 85:** Is epilepsy classified as a crisis condition?
+- A) No, it is minor
+- B) Yes, as loss of consciousness is complicated by being in water
+- C) Only sometimes
+- D) Never
+
+**Answer: B**
+
+---
+
+## MODULE 11: CRISIS CONDITIONS - HYPERVENTILATION
+
+**Question 86:** What is hyperventilation?
+- A) Slow, shallow breathing
+- B) Holding the breath
+- C) Deep rapid breathing that may be uncontrollable
+- D) Normal breathing during exercise
+
+**Answer: C**
+
+---
+
+**Question 87:** What often causes hyperventilation?
+- A) Physical exercise only
+- B) Anxiety or shock
+- C) Normal daily activities
+- D) Eating food
+
+**Answer: B**
+
+---
+
+**Question 88:** What symptoms can prolonged hyperventilation cause?
+- A) Improved sensation
+- B) Numbness or tingling around the mouth or fingertips, chest pain, and dizziness
+- C) Increased strength
+- D) Better breathing
+
+**Answer: B**
+
+---
+
+**Question 89:** What can help alleviate hyperventilation?
+- A) Rapid breathing into the air
+- B) A cupped hand or paper bag over the mouth and nose
+- C) Drinking cold water
+- D) Lying flat on the back
+
+**Answer: B**
+
+---
+
+**Question 90:** When should the 'paper bag' technique NOT be used?
+- A) When the casualty is breathing deeply
+- B) If no other cause of respiratory distress is determined, only apply this technique
+- C) When the casualty is conscious
+- D) Always use it
+
+**Answer: B**
+
+---
+
+## MODULE 12: ENVIRONMENTAL EMERGENCIES
+
+**Question 91:** What condition occurs in very hot and humid areas with physical activity?
+- A) Hypothermia
+- B) Heat stress and heat exhaustion
+- C) Frostbite
+- D) Dehydration only
+
+**Answer: B**
+
+---
+
+**Question 92:** What should be done for heat exhaustion?
+- A) Apply heat
+- B) Keep the person outdoors
+- C) Get casualty to cool place, remove excess clothing, replace lost fluids if conscious, transport to hospital if necessary
+- D) No treatment needed
+
+**Answer: C**
+
+---
+
+**Question 93:** What are cold conditions like in South Africa?
+- A) Very common everywhere
+- B) Not common but occur in high-lying areas with snow and during severe winters
+- C) Never occur
+- D) Only in winter months at sea level
+
+**Answer: B**
+
+---
+
+**Question 94:** What should be done for frostbite?
+- A) Rub the affected area vigorously
+- B) Apply heat immediately
+- C) Never rub the area, don't apply anything, warm slowly, handle carefully
+- D) Ignore it
+
+**Answer: C**
+
+---
+
+**Question 95:** What is hypothermia?
+- A) Low body temperature in a specific body part
+- B) The whole body is cooled due to surroundings like cold water, wind, snow, and ice
+- C) High body temperature
+- D) Normal body temperature
+
+**Answer: B**
+
+---
+
+**Question 96:** At what water temperature can hypothermia occur?
+- A) Only below 0°C
+- B) Only below 5°C
+- C) When water temperature is less than normal body temperature
+- D) Only in winter
+
+**Answer: C**
+
+---
+
+**Question 97:** What should NOT be given to a person with hypothermia?
+- A) Warm drinks if conscious
+- B) Warm, dry clothes
+- C) Slow warming
+- D) Alcohol
+
+**Answer: D**
+
+---
+
+**Question 98:** What is frostbite?
+- A) General body cooling
+- B) A cold injury to part of the body affecting fingers, toes, nose, and ears
+- C) Mild cooling of the skin
+- D) Skin redness only
+
+**Answer: B**
+
+---
+
+**Question 99:** When can frostbite occur?
+- A) Only in freezing temperatures
+- B) When parts of the body are exposed in cold weather or when handling cold materials without gloves
+- C) Only underwater
+- D) Never in South Africa
+
+**Answer: B**
+
+---
+
+**Question 100:** What is the difference between frostbite and hypothermia?
+- A) They are the same thing
+- B) Frostbite affects part of the body; hypothermia affects the whole body
+- C) Frostbite only affects the skin
+- D) Hypothermia is not serious
+
+**Answer: B**
+
+---
+
+## MODULE 13: MOTOR VEHICLE ACCIDENTS AND TRAUMA
+
+**Question 101:** What should NOT be done in a motor vehicle accident?
+- A) Call for EMS
+- B) Pull people out of vehicles except to perform CPR
+- C) Provide first aid
+- D) Assess the scene
+
+**Answer: B**
+
+---
+
+**Question 102:** Should crash helmets be removed?
+- A) Always remove them immediately
+- B) Only if you have to do CPR (it takes 2 people to remove a full-face helmet)
+- C) Never touch them
+- D) Remove only if conscious
+
+**Answer: B**
+
+---
+
+**Question 103:** What is evident in trauma situations?
+- A) Nothing serious
+- B) Trauma is evident
+- C) Only minor injuries
+- D) No injuries
+
+**Answer: B**
+
+---
+
+**Question 104:** What is the most important factor in handling major injuries with severe tissue damage?
+- A) Keeping the casualty conscious
+- B) Initial assessment HHH CAB and stopping the bleeding
+- C) Waiting for professional help before doing anything
+- D) Applying bandages quickly
+
+**Answer: B**
+
+---
+
+**Question 105:** What is the emergency number mentioned for major trauma in South Africa?
+- A) 999
+- B) 911
+- C) 10177 / 112
+- D) 1234
+
+**Answer: C**
+
+---
+
+## MODULE 14: LIFE-THREATENING EMERGENCIES
+
+**Question 106:** What is a life-threatening emergency?
+- A) A minor injury requiring basic first aid
+- B) A sickness or injury so severe that the person is likely to die
+- C) An injury that can wait for several hours
+- D) Any emergency
+
+**Answer: B**
+
+---
+
+**Question 107:** What indicates a potentially life-threatening condition?
+- A) Normal vital signs
+- B) Very abnormal signs and symptoms or marked decrease in condition
+- C) Conscious state only
+- D) Nothing indicates threat
+
+**Answer: B**
+
+---
+
+**Question 108:** What is most common cause of cardiac arrest in children?
+- A) Heart attack
+- B) Respiratory arrest or failure
+- C) Choking on food
+- D) Ventricular fibrillation
+
+**Answer: B**
+
+---
+
+**Question 109:** What should be done if you suspect a heart attack?
+- A) Wait and monitor
+- B) Give medication immediately
+- C) Treat the person as an IMMEDIATE casualty
+- D) Apply cold compress
+
+**Answer: C**
+
+---
+
+**Question 110:** Are heart attack symptoms the same in all people?
+- A) Yes, always
+- B) No, signs are often less clear in women, elderly, and people with diabetes
+- C) Only in men
+- D) Only in young people
+
+**Answer: B**
+
+---
+
+## MODULE 15: BITES AND STINGS
+
+**Question 111:** What are wounds caused by bites and stings?
+- A) Very minor injuries
+- B) Puncture or penetration of skin by teeth, fangs or stingers with damage to skin and underlying tissue
+- C) Surface bruises only
+- D) Non-serious injuries
+
+**Answer: B**
+
+---
+
+**Question 112:** What is likely after animal bites?
+- A) No consequences
+- B) Infection is highly probable
+- C) Immediate healing
+- D) No medical attention needed
+
+**Answer: B**
+
+---
+
+**Question 113:** Which animal bites should always be seen by medical professionals?
+- A) Bird bites only
+- B) Human, dog, and monkey bites
+- C) Insect bites only
+- D) No bites need professional care
+
+**Answer: B**
+
+---
+
+**Question 114:** Why should animal bite victims see medical professionals?
+- A) For pain relief only
+- B) For appropriate antibiotic cover to prevent infection
+- C) For documentation only
+- D) Not necessary
+
+**Answer: B**
+
+---
+
+**Question 115:** What should be watched for in bee and marine stings?
+- A) Nothing particular
+- B) Allergic reaction
+- C) Minor pain only
+- D) Itching only
+
+**Answer: B**
+
+---
+
+## MODULE 16: RESPIRATORY EMERGENCIES
+
+**Question 116:** What are respiratory emergencies caused by?
+- A) Only asthma
+- B) Failure of lungs to maintain sufficient oxygen supply due to sickness or injury
+- C) Only drowning
+- D) Only choking
+
+**Answer: B**
+
+---
+
+**Question 117:** Which of the following is a respiratory emergency?
+- A) Feeling tired
+- B) Asthma, choking, electric shock, smoke/gas inhalation, drowning, lightning, chest injuries
+- C) Hunger
+- D) Cold weather
+
+**Answer: B**
+
+---
+
+**Question 118:** Is drowning classified as a respiratory emergency?
+- A) No
+- B) Yes, failure of lungs to maintain oxygen supply
+- C) Only sometimes
+- D) Not always
+
+**Answer: B**
+
+---
+
+**Question 119:** What emergencies can electric shock cause?
+- A) None
+- B) Only burns
+- C) Respiratory emergencies through failure of lungs
+- D) Only unconsciousness
+
+**Answer: C**
+
+---
+
+**Question 120:** Can lightning cause respiratory emergencies?
+- A) No, never
+- B) Yes, it can cause failure of lungs to maintain oxygen supply
+- C) Only to children
+- D) Only outdoors
+
+**Answer: B**
+
+---
+
+## MODULE 17: CHOKING
+
+**Question 121:** What is choking?
+- A) A minor discomfort
+- B) An extremely distressful emergency that can be life-threatening
+- C) Normal throat clearing
+- D) No emergency at all
+
+**Answer: B**
+
+---
+
+**Question 122:** What types of airway obstruction exist?
+- A) Only complete obstruction
+- B) Partial (some air reaches lungs) or complete (no air reaches lungs)
+- C) Only minor obstruction
+- D) No true obstruction
+
+**Answer: B**
+
+---
+
+**Question 123:** When should back slaps NOT be performed?
+- A) Never
+- B) If you cannot get their head lower than their chest as gravity can pull obstruction further down
+- C) Always perform them
+- D) Only on adults
+
+**Answer: B**
+
+---
+
+**Question 124:** What technique should be used for obese or pregnant casualties who are choking?
+- A) Back slaps only
+- B) Chest thrusts with hands or fingers in same position as CPR
+- C) Abdominal thrusts
+- D) Nothing should be done
+
+**Answer: B**
+
+---
+
+**Question 125:** What technique should be used for a choking baby?
+- A) Adult abdominal thrusts
+- B) Back slaps and chest thrusts
+- C) Chest thrusts only
+- D) Heimlich maneuver
+
+**Answer: C**
+
+---
+
+## MODULE 18: COMMON EMERGENCIES - ACTION PROTOCOLS
+
+**Question 126:** What should be done for a conscious choking person who can cough?
+- A) Perform abdominal thrusts immediately
+- B) Encourage coughing and monitor as it may dislodge obstruction
+- C) Apply back slaps
+- D) Do nothing
+
+**Answer: B**
+
+---
+
+**Question 127:** What is one action for allergy emergencies?
+- A) Ignore symptoms
+- B) Primary Assessment (HHH CAB), secondary assessment, ask about allergies, check for Medical Alert bracelet
+- C) Wait for symptoms to worsen
+- D) Apply heat
+
+**Answer: B**
+
+---
+
+**Question 128:** What is the first aid action for a bee sting?
+- A) Push the sting deeper
+- B) Gently remove sting with back of knife or card, apply ice over sting site
+- C) Suck out the poison
+- D) Ignore it
+
+**Answer: B**
+
+---
+
+**Question 129:** What should NOT be done for a bee sting?
+- A) Remove the sting
+- B) Apply ice
+- C) Pinch or pull the sting
+- D) Monitor for allergic reaction
+
+**Answer: C**
+
+---
+
+**Question 130:** What should be done for animal bites?
+- A) Apply heat
+- B) Primary Assessment (HHH CAB), control bleeding, clean wound thoroughly with water
+- C) Cover immediately without cleaning
+- D) Ignore them
+
+**Answer: B**
+
+---
+
+## MODULE 19: COMMON EMERGENCIES - BLEEDING AND BURNS
+
+**Question 131:** What should be done immediately for bleeding?
+- A) Apply heat
+- B) Control bleeding with gloved hands and elevate the limb
+- C) Remove all dressings to check
+- D) Wait and observe
+
+**Answer: B**
+
+---
+
+**Question 132:** Are tourniquets still recommended?
+- A) Yes, always
+- B) No longer recommended; specific protocols apply if needed as last resort
+- C) Only for arterial bleeding
+- D) Never used
+
+**Answer: B**
+
+---
+
+**Question 133:** What must be noted when a tourniquet is applied?
+- A) The patient's name
+- B) The time the tourniquet is applied or reapplied
+- C) The type of bandage used
+- D) Nothing in particular
+
+**Answer: B**
+
+---
+
+**Question 134:** What should be done for burns in emergency care?
+- A) Apply ointments
+- B) Cool, cover, and transport to health care provider if large or deep
+- C) Keep the area open to air
+- D) Apply ice directly
+
+**Answer: B**
+
+---
+
+**Question 135:** What should NOT be done for burns?
+- A) Cool them
+- B) Cover them
+- C) Apply ointments or creams or break blisters
+- D) Transport to hospital
+
+**Answer: C**
+
+---
+
+## MODULE 20: COMMON EMERGENCIES - HEAD AND SPINAL INJURIES
+
+**Question 136:** What should be done for concussion?
+- A) Keep the person awake
+- B) Monitor vital signs, monitor level of consciousness, check with healthcare professional
+- C) Apply pressure to head
+- D) Lie flat
+
+**Answer: B**
+
+---
+
+**Question 137:** What should NOT be done for concussion?
+- A) Monitor vital signs
+- B) Monitor consciousness
+- C) Keep awake
+- D) Check with healthcare professional
+
+**Answer: C**
+
+---
+
+**Question 138:** What should be done for cramp?
+- A) Ignore it
+- B) Reassure casualty, gently stretch cramped muscle, give fluids, remove from water if applicable
+- C) Force movement
+- D) Apply heat immediately
+
+**Answer: B**
+
+---
+
+**Question 139:** What should NOT be done for cramp?
+- A) Stretch the muscle
+- B) Provide reassurance
+- C) Use the muscle unnecessarily
+- D) Give fluids
+
+**Answer: C**
+
+---
+
+**Question 140:** What should be done for spinal injuries?
+- A) Move the person normally
+- B) Open airway using head tilt-chin lift if no breathing, call ambulance, handle gently
+- C) Apply heat
+- D) Ignore it
+
+**Answer: B**
+
+---
+
+## MODULE 21: COMMON EMERGENCIES - OTHER CONDITIONS
+
+**Question 141:** What should be done for fainting?
+- A) Sit the person on a chair
+- B) Lie the person flat without pillow, if unconscious turn into recovery position, stay with them
+- C) Force them to stand
+- D) Apply cold water
+
+**Answer: B**
+
+---
+
+**Question 142:** What should NOT be done for fainting?
+- A) Lie them flat
+- B) Never sit casualty on chair with head between knees
+- C) Place in recovery position if needed
+- D) Stay with them
+
+**Answer: B**
+
+---
+
+**Question 143:** What should be done for heart attack?
+- A) Let the person lie down flat
+- B) Call ambulance, let sit up while conscious, apply oxygen if available, do CPR if heart stops
+- C) Give medication
+- D) Apply heat
+
+**Answer: B**
+
+---
+
+**Question 144:** What should NOT be done for heart attack?
+- A) Call EMS
+- B) Apply oxygen
+- C) Ignore early symptoms like heartburn, shortness of breath, chest pain, cold sweats
+- D) Do CPR if needed
+
+**Answer: C**
+
+---
+
+**Question 145:** What should be done for marine stings?
+- A) Rub or use sand
+- B) Gently remove tentacles (protect hands), wash with cold water, rotate ice over stung area
+- C) Apply heat
+- D) Ignore it
+
+**Answer: B**
+
+---
+
+## MODULE 22: COMMON EMERGENCIES - NOSE, EYE, AND EAR INJURIES
+
+**Question 146:** What should be done for nosebleed?
+- A) Tilt head back
+- B) Seat casualty comfortably, pinch soft part of nose below bony part, let breathe through mouth
+- C) Pack nose with cotton
+- D) Lie flat
+
+**Answer: B**
+
+---
+
+**Question 147:** What should NOT be done for nosebleed?
+- A) Pinch the nose
+- B) Plug the nose with anything
+- C) Let breathe through mouth
+- D) Seat comfortably
+
+**Answer: B**
+
+---
+
+**Question 148:** What should be done for ear injuries?
+- A) Insert objects into ear
+- B) Keep calm, cover and consult doctor/nurse
+- C) Pour water in
+- D) Apply pressure
+
+**Answer: B**
+
+---
+
+**Question 149:** What should NOT be done for ear injuries?
+- A) Keep calm
+- B) Cover the area
+- C) Remove or insert anything
+- D) Consult healthcare professional
+
+**Answer: C**
+
+---
+
+**Question 150:** What should be done for eye injuries with foreign objects?
+- A) Try to remove the object
+- B) Flush the eye with water, cover eyes, consult doctor/nurse
+- C) Rub the eye
+- D) Apply ointment
+
+**Answer: B**
+
+---
+
+## MODULE 23: COMMON EMERGENCIES - CHEMICAL AND ENVIRONMENTAL EXPOSURE
+
+**Question 151:** What should be done for poisoning?
+- A) Induce vomiting immediately at home
+- B) Identify poison, contact EMS (who contact Poison Centre), maintain open airway, monitor vital signs
+- C) Wait to see if it improves
+- D) Apply heat
+
+**Answer: B**
+
+---
+
+**Question 152:** What should NOT be done for poisoning out of hospital?
+- A) Call EMS
+- B) Maintain airway
+- C) Induce vomiting unless instructed by Poison Centre
+- D) Monitor vital signs
+
+**Answer: C**
+
+---
+
+**Question 153:** What should be done for snake bites?
+- A) Cut the wound
+- B) Keep calm, wash area, apply sterile dressing, keep limb at rest
+- C) Elevate the limb
+- D) Apply heat
+
+**Answer: B**
+
+---
+
+**Question 154:** What should NOT be done for snake bites?
+- A) Wash the area
+- B) Apply dressing
+- C) Elevate the limb
+- D) Keep calm
+
+**Answer: C**
+
+---
+
+**Question 155:** What should be done for electric shock?
+- A) Touch the person immediately
+- B) Remove source of current, cool and cover wounds, consider fractures including neck
+- C) Apply water
+- D) Leave them alone
+
+**Answer: B**
+
+---
+
+## MODULE 24: HAND HYGIENE
+
+**Question 156:** What is the most effective measure to prevent spread of infection?
+- A) Gloves alone
+- B) Hand washing
+- C) Sanitizer only
+- D) Masks
+
+**Answer: B**
+
+---
+
+**Question 157:** When should hands be washed?
+- A) Only after work
+- B) Before providing care, after eating, after using restroom, after providing care
+- C) Only when visibly dirty
+- D) Once a day
+
+**Answer: B**
+
+---
+
+**Question 158:** How long should hands be rubbed with soap?
+- A) 5 seconds
+- B) 10 seconds
+- C) At least 20 seconds
+- D) 1 minute
+
+**Answer: C**
+
+---
+
+**Question 159:** What surfaces should be covered when washing hands?
+- A) Only palms
+- B) All surfaces including fingernails and jewelry
+- C) Only between fingers
+- D) Back of hands only
+
+**Answer: B**
+
+---
+
+**Question 160:** When can alcohol-based sanitizers be used?
+- A) Always instead of soap and water
+- B) When soap and water not readily available and hands not visibly soiled
+- C) Never
+- D) Only on children
+
+**Answer: B**
+
+---
+
+## MODULE 25: EQUIPMENT CLEANING AND SPILL CLEAN-UP
+
+**Question 161:** What should be done after providing care?
+- A) Leave everything as is
+- B) Clean and disinfect equipment and surfaces
+- C) Only wash hands
+- D) Dispose of all equipment
+
+**Answer: B**
+
+---
+
+**Question 162:** How should soiled equipment be handled?
+- A) Left on ground
+- B) Placed in labeled containers and soiled clothing in marked plastic bags
+- C) Burned immediately
+- D) Thrown away without care
+
+**Answer: B**
+
+---
+
+**Question 163:** What should be done before cleaning spills?
+- A) Touch them directly
+- B) Wear disposable gloves and glasses where possible
+- C) Use bare hands
+- D) Do nothing
+
+**Answer: B**
+
+---
+
+**Question 164:** What is the recommended disinfectant solution for blood spills?
+- A) Pure bleach
+- B) 1 part bleach to 9 parts water (10% solution)
+- C) Water only
+- D) Soap solution
+
+**Answer: B**
+
+---
+
+**Question 165:** How long should disinfectant solution stand on an area before cleaning?
+- A) At least 5 minutes
+- B) At least 10 minutes
+- C) At least 20 minutes
+- D) At least 30 minutes
+
+**Answer: B**
+
+---
+
+## MODULE 26: EXPOSURE TO BODY FLUIDS
+
+**Question 166:** What should be done if exposed to blood around mouth or nose?
+- A) Leave it
+- B) Wipe with tissue
+- C) Wash the area with water
+- D) Apply alcohol
+
+**Answer: C**
+
+---
+
+**Question 167:** How long should eyes be washed if exposed to contaminated material?
+- A) 5 minutes
+- B) 10 minutes
+- C) 20 minutes
+- D) 30 minutes
+
+**Answer: C**
+
+---
+
+**Question 168:** What should be reported after an exposure incident?
+- A) Nothing in particular
+- B) The incident to duty squad leader/senior immediately and to EMS personnel
+- C) Only to management
+- D) Not necessary to report
+
+**Answer: B**
+
+---
+
+**Question 169:** What should be documented after exposure?
+- A) Only the date
+- B) Time, date, circumstances, and actions taken
+- C) Only patient name
+- D) Nothing needs documenting
+
+**Answer: B**
+
+---
+
+**Question 170:** What should be done after exposure incident?
+- A) Continue working normally
+- B) Seek medical care if concerned
+- C) Ignore it
+- D) Only tell colleagues
+
+**Answer: B**
+
+---
+
+## MODULE 27: SECONDARY ASSESSMENT - DEFG HHH
+
+**Question 171:** What does DEFG HHH stand for?
+- A) Disease, Examination, Focus, General, Heart, Hearing, History
+- B) Delicate nervous system, Epidermis, Fractures, General, History, Handle with care, Hand over
+- C) Defence, Equipment, Functions, General, Health, Hearing, History
+- D) Determine, Emergency, Follow, General, Help, Handling, Hospital
+
+**Answer: B**
+
+---
+
+**Question 172:** When should secondary assessment be performed?
+- A) Before primary assessment
+- B) Only if person is unconscious
+- C) After primary assessment when minutes count
+- D) Only at hospital
+
+**Answer: C**
+
+---
+
+**Question 173:** What should be assessed for the delicate nervous system?
+- A) Only heart rate
+- B) Level of consciousness using AVPU, check for spontaneous movement
+- C) Only breathing
+- D) Only temperature
+
+**Answer: B**
+
+---
+
+**Question 174:** What should be looked for in the epidermis assessment?
+- A) Only bruises
+- B) Wounds, burns, bruises, rashes, needle marks, foreign objects
+- C) Only skin color
+- D) Nothing specific
+
+**Answer: B**
+
+---
+
+**Question 175:** What should be assessed for fractures?
+- A) Only pain
+- B) Pain, swelling, deformity, compare limbs
+- C) Only deformity
+- D) Only swelling
+
+**Answer: B**
+
+---
+
+## MODULE 28: VITAL SIGNS ASSESSMENT
+
+**Question 176:** What are vital signs?
+- A) Only pulse
+- B) Only breathing
+- C) Level of consciousness, breathing, circulation, skin condition, pupils
+- D) Only temperature
+
+**Answer: C**
+
+---
+
+**Question 177:** What should be recorded for level of consciousness vital sign?
+- A) Only if alert
+- B) AVPU scale status
+- C) Only if unconscious
+- D) Nothing
+
+**Answer: B**
+
+---
+
+**Question 178:** What should be assessed for skin in vital signs?
+- A) Only temperature
+- B) Colour, condition, temperature
+- C) Only colour
+- D) Only texture
+
+**Answer: B**
+
+---
+
+**Question 179:** What should be assessed about pupils?
+- A) Only size
+- B) Equal, reacting to light, dilated or sluggish
+- C) Only reactivity
+- D) Nothing
+
+**Answer: B**
+
+---
+
+**Question 180:** How should breathing rate be recorded?
+- A) Just note if breathing
+- B) Per minute
+- C) Only if abnormal
+- D) Not necessary
+
+**Answer: B**
+
+---
+
+## MODULE 29: SAMPLE HISTORY GATHERING
+
+**Question 181:** What does SAMPLE stand for?
+- A) Symptoms, Alert, Medication, Problem, Location, Events
+- B) Signs, Symptoms, Allergies, Medication, Past Problems, Last oral intake, Events
+- C) Sick, Alert, Medical, Patient, Location, Emergency
+- D) Safety, Accident, Medical, Personal, Location, Events
+
+**Answer: B**
+
+---
+
+**Question 182:** What is a sign in SAMPLE history?
+- A) Only what the person says
+- B) What you can assess using your senses (seeing, hearing, feeling)
+- C) Only injuries visible
+- D) Nothing specific
+
+**Answer: B**
+
+---
+
+**Question 183:** What is a symptom in SAMPLE history?
+- A) What you observe
+- B) What the person reports (e.g., "I can't feel my legs")
+- C) Only injuries
+- D) Only pain
+
+**Answer: B**
+
+---
+
+**Question 184:** What should be asked for allergies in SAMPLE?
+- A) Nothing about allergies
+- B) "Are you allergic to anything?" and check for medical ID tags
+- C) Only food allergies
+- D) Only drug allergies
+
+**Answer: B**
+
+---
+
+**Question 185:** What should be asked for medication in SAMPLE?
+- A) Don't ask about medication
+- B) "Are you taking any medications?" and "What are they for?"
+- C) Only prescription medications
+- D) Nothing about medications
+
+**Answer: B**
+
+---
+
+## MODULE 30: TRIAGE
+
+**Question 186:** What is triage in emergency care?
+- A) A type of first aid
+- B) The sorting process where more than one casualty is involved
+- C) Emergency surgery
+- D) A medical facility
+
+**Answer: B**
+
+---
+
+**Question 187:** How should casualties be prioritized in triage?
+- A) Randomly
+- B) On basis of injuries and life-threatening conditions
+- C) By age only
+- D) By consciousness only
+
+**Answer: B**
+
+---
+
+**Question 188:** Who needs immediate help according to triage?
+- A) Only those who are conscious
+- B) Not breathing, breathing with difficulty, unconscious for 2+ minutes, or with severe bleeding
+- C) Only those complaining
+- D) Those with minor injuries
+
+**Answer: B**
+
+---
+
+**Question 189:** Who can wait according to triage priorities?
+- A) Those needing immediate help
+- B) Minor injuries with controlled bleeding
+- C) Those unconscious
+- D) Those with severe bleeding
+
+**Answer: B**
+
+---
+
+**Question 190:** Who does not need professional attention according to triage?
+- A) Anyone injured
+- B) Minor cuts and emotional responses
+- C) Those with bleeding
+- D) Those unconscious
+
+**Answer: B**
+
+---
+
+## MODULE 31: CHLORINE EXPOSURE
+
+**Question 191:** Who might be exposed to chlorine?
+- A) Only swimmers
+- B) Pool and water park staff including chlorinated sea water pool staff
+- C) Only lifeguards
+- D) Nobody
+
+**Answer: B**
+
+---
+
+**Question 192:** What should be the first action for chlorine exposure?
+- A) Apply water immediately
+- B) Remove the exposed casualty to uncontaminated area
+- C) Give oxygen
+- D) Call ambulance first
+
+**Answer: B**
+
+---
+
+**Question 193:** What should be done for liquid chlorine eye contact?
+- A) Wipe with tissue
+- B) Flush eyes immediately with water for 15 minutes or use milk
+- C) Cover eyes
+- D) Do nothing
+
+**Answer: B**
+
+---
+
+**Question 194:** How long should skin be flushed for liquid chlorine contact?
+- A) 5 minutes
+- B) 10 minutes
+- C) 15 minutes
+- D) 20 minutes
+
+**Answer: C**
+
+---
+
+**Question 195:** What should NOT be done for liquid chlorine skin contact?
+- A) Flush with water
+- B) Remove contaminated clothing
+- C) Apply ointments to damaged skin
+- D) Ensure traces are removed
+
+**Answer: C**
+
+---
+
+## MODULE 32: MAJOR TRAUMA WITH SEVERE BLEEDING
+
+**Question 196:** What is the most important factor in handling major injuries?
+- A) Keeping person calm only
+- B) Initial assessment HHH CAB and stopping the bleeding
+- C) Waiting for ambulance
+- D) Applying bandages slowly
+
+**Answer: B**
+
+---
+
+**Question 197:** What are two types of bleeding control methods?
+- A) Direct pressure and cold water only
+- B) Direct and indirect pressure on arteries and veins
+- C) Only elevation
+- D) No specific methods
+
+**Answer: B**
+
+---
+
+**Question 198:** What should be done for severe arterial bleeding?
+- A) Apply gentle pressure
+- B) Know pressure points and block them firmly
+- C) Wait for help
+- D) Do nothing
+
+**Answer: B**
+
+---
+
+**Question 199:** How is venous bleeding typically controlled?
+- A) Apply heat
+- B) Limb elevation and direct pressure
+- C) Do nothing
+- D) Only medication
+
+**Answer: B**
+
+---
+
+**Question 200:** When should a tourniquet be used?
+- A) Immediately for any bleeding
+- B) Only when other methods (elevation, direct/indirect pressure) have failed
+- C) Never
+- D) Only by paramedics
+
+**Answer: B**
+
+---
+
+## MODULE 33: TOURNIQUET APPLICATION
+
+**Question 201:** Where can a tourniquet be applied?
+- A) On the face
+- B) Only on limbs
+- C) On the torso
+- D) Anywhere on body
+
+**Answer: B**
+
+---
+
+**Question 202:** What should be placed over skin before applying a tourniquet?
+- A) Nothing
+- B) Clean fabric over undamaged skin immediately above the wound
+- C) Ice pack
+- D) Plastic wrap
+
+**Answer: B**
+
+---
+
+**Question 203:** What should be done when applying a tourniquet?
+- A) Apply loosely
+- B) Wrap soft rubber tourniquet tightly until bleeding stops
+- C) Apply over clothing
+- D) Never tighten
+
+**Answer: B**
+
+---
+
+**Question 204:** What must be recorded when tourniquet is applied?
+- A) Patient's name only
+- B) The time that bleeding stops, written on the tourniquet
+- C) Nothing
+- D) Only the location
+
+**Answer: B**
+
+---
+
+**Question 205:** How long can a tourniquet safely remain in place?
+- A) Indefinitely
+- B) Less than 30 minutes
+- C) Maximum 2 hours before permanent limb damage occurs
+- D) 5 hours
+
+**Answer: C**
+
+---
+
+## MODULE 34: TOURNIQUET RELEASE AND MONITORING
+
+**Question 206:** Why must a tourniquet be released periodically?
+- A) To check the wound
+- B) To resume blood supply to prevent limb death
+- C) For comfort
+- D) It doesn't need releasing
+
+**Answer: B**
+
+---
+
+**Question 207:** How often should a tourniquet be released?
+- A) Every 15 minutes
+- B) Every 30 minutes
+- C) Every hour for 3-5 minutes
+- D) Every 2 hours
+
+**Answer: C**
+
+---
+
+**Question 208:** What happens if blood supply is not resumed within 2 hours?
+- A) Nothing serious
+- B) The limb will die and be lost
+- C) The limb will grow stronger
+- D) No consequences
+
+**Answer: B**
+
+---
+
+**Question 209:** What should be kept limb elevation throughout tourniquet application?
+- A) Never
+- B) During release only
+- C) At all times
+- D) Not necessary
+
+**Answer: C**
+
+---
+
+**Question 210:** What does blocking blood supply with a tourniquet prevent?
+- A) Pain relief
+- B) Movement
+- C) All blood supply to limb below tourniquet
+- D) Consciousness
+
+**Answer: C**
+
+---
+
+## MODULE 35: SHARK ATTACKS AND AQUATIC TRAUMA
+
+**Question 211:** What should be done when a shark attack occurs in water?
+- A) Leave the casualty in water
+- B) Clear the water of bathers using shark alarm
+- C) Wait before acting
+- D) Do nothing
+
+**Answer: B**
+
+---
+
+**Question 212:** How should an aquatic trauma casualty be brought to shore?
+- A) Slowly and carefully
+- B) As quickly as possible using whatever means available (IRB, surfboards)
+- C) Wait for professional help
+- D) Leave them in water
+
+**Answer: B**
+
+---
+
+**Question 213:** When should EMS and emergency pack be called for shark attacks?
+- A) After getting to shore
+- B) While casualty is still in water
+- C) Only if bleeding is visible
+- D) Never
+
+**Answer: B**
+
+---
+
+**Question 214:** What should NOT be attempted in the water for shark attack victims?
+- A) Rescue
+- B) Stopping the bleeding
+- C) Assessment
+- D) Calling for help
+
+**Answer: B**
+
+---
+
+**Question 215:** Where should shark attack casualty be placed on shore?
+- A) At the water's edge
+- B) Below high tide mark if possible
+- C) Above high tide mark, parallel with surf line
+- D) In water
+
+**Answer: C**
+
+---
+
+## MODULE 36: SHARK ATTACK POSITIONING AND TREATMENT
+
+**Question 216:** How should an unconscious breathing shark attack casualty be positioned?
+- A) On their back
+- B) On their side in recovery position
+- C) On their stomach
+- D) Sitting up
+
+**Answer: B**
+
+---
+
+**Question 217:** How should a conscious shark attack casualty be positioned?
+- A) On their side
+- B) Sitting up
+- C) On their back with legs slightly raised (no more than 30 cm)
+- D) Standing
+
+**Answer: C**
+
+---
+
+**Question 218:** What should be the first action for shark attack victim on shore?
+- A) Apply ice
+- B) Check CAB and apply direct pressure and compression bandaging
+- C) Wait for ambulance
+- D) Give water
+
+**Answer: B**
+
+---
+
+**Question 219:** Is drowning a concern in shark attack victims?
+- A) No, not likely
+- B) Yes, shark attack is aquatic incident so drowning is possible
+- C) Only sometimes
+- D) Never
+
+**Answer: B**
+
+---
+
+**Question 220:** What is the most important factor for shark attack victim survival?
+- A) Mental preparation
+- B) Speed of transport
+- C) Initial treatment given on shore
+- D) Weather conditions
+
+**Answer: C**
+
+---
+
+## MODULE 37: COMPREHENSIVE EMERGENCY ASSESSMENT
+
+**Question 221:** What should be done first in any emergency?
+- A) Call hospital directly
+- B) Primary Assessment HHH CAB
+- C) Get patient up
+- D) Apply medications
+
+**Answer: B**
+
+---
+
+**Question 222:** After primary assessment, what comes next?
+- A) Transport immediately
+- B) Secondary Assessment DEFG HHH
+- C) Leave patient
+- D) Call family
+
+**Answer: B**
+
+---
+
+**Question 223:** What information should be gathered from patient or bystanders?
+- A) Personal information only
+- B) SAMPLE history
+- C) Only medical insurance
+- D) Nothing specific
+
+**Answer: B**
+
+---
+
+**Question 224:** In multi-casualty situations, what determines priority?
+- A) Age
+- B) Injuries and life-threatening conditions through triage
+- C) Consciousness only
+- D) Loudness of complaints
+
+**Answer: B**
+
+---
+
+**Question 225:** What special precaution is mentioned for children in secondary assessment?
+- A) No special precautions
+- B) Use TOE TO HEAD assessment to build emotional trust
+- C) Ignore children
+- D) Use same method as adults
+
+**Answer: B**
+
+---
+
+## MODULE 38: INCIDENT REPORTING
+
+**Question 226:** Should an incident report be completed?
+- A) Never
+- B) Only for serious incidents
+- C) Yes, for use by relevant parties
+- D) Only at hospital
+
+**Answer: C**
+
+---
+
+**Question 227:** What should be documented in an incident report?
+- A) Patient name only
+- B) Nature of incident, time, vital signs, treatment given
+- C) Only weather
+- D) Nothing specific
+
+**Answer: B**
+
+---
+
+**Question 228:** Who should receive the incident report?
+- A) Only the patient
+- B) Relevant parties for their use
+- C) Nobody
+- D) Only management
+
+**Answer: B**
+
+---
+
+**Question 229:** What record should be made of vital signs?
+- A) On casual notes
+- B) On the back of the incident report
+- C) No record needed
+- D) Only if abnormal
+
+**Answer: B**
+
+---
+
+**Question 230:** Is documentation important in emergency care?
+- A) No, not important
+- B) Yes, documentation helps assess casualty's condition and shows appropriate care was given
+- C) Only for legal reasons
+- D) Not necessary
+
+**Answer: B**
+
+---
+
+## FINAL COMPREHENSIVE QUESTIONS
+
+**Question 231:** What is the primary goal of emergency care for any casualty?
+- A) Get them to hospital immediately
+- B) Stabilize them through proper medically-related activities
+- C) Give them medication
+- D) Keep them comfortable
+
+**Answer: B**
+
+---
+
+**Question 232:** When is a casualty considered an immediate emergency?
+- A) Only if unconscious less than 1 minute
+- B) Not breathing, breathing with difficulty, unconscious over 2 minutes, or severe bleeding
+- C) Only if in pain
+- D) Never immediately
+
+**Answer: B**
+
+---
+
+**Question 233:** What personal protective equipment is essential?
+- A) Nothing needed
+- B) Disposable gloves for contact with body fluids
+- C) Only masks
+- D) Only aprons
+
+**Answer: B**
+
+---
+
+**Question 234:** What is the chain of care?
+- A) Direct patient to hospital themselves
+- B) Initial emergency care, stabilization, and handover to EMS/healthcare facility
+- C) No specific chain
+- D) Call only
+
+**Answer: B**
+
+---
+
+**Question 235:** Why is training in emergency care critical for lifeguards?
+- A) To make them feel important
+- B) Because they often respond to emergencies and must provide appropriate care to save lives
+- C) For documentation
+- D) Not really important
+
+**Answer: B**
+
+---
+
+**Question 236:** What is the difference between primary and secondary assessment?
+- A) They are the same
+- B) Primary is immediate (HHH CAB); secondary is detailed (DEFG HHH) when minutes count
+- C) Secondary comes first
+- D) No difference
+
+**Answer: B**
+
+---
+
+**Question 237:** Should CPR be withheld due to bleeding?
+- A) Yes, always
+- B) No, bleeding control and CPR should occur simultaneously with enough personnel
+- C) Only if bleeding is minor
+- D) Never give CPR
+
+**Answer: B**
+
+---
+
+**Question 238:** What is most dangerous about shock?
+- A) It's noisy
+- B) It can quickly lead to death if not treated
+- C) It causes minor discomfort
+- D) It's easily reversible
+
+**Answer: B**
+
+---
+
+**Question 239:** Why are disposable gloves important?
+- A) For comfort only
+- B) To prevent cross-infection and protect rescuer from body fluids
+- C) Not really important
+- D) Only for appearance
+
+**Answer: B**
+
+---
+
+**Question 240:** What overarching principle guides all emergency care?
+- A) Speed regardless of safety
+- B) Treat the person with dignity, provide appropriate medical care, prevent further injury, and get professional help
+- C) Wait for professionals
+- D) Self-protection only
+
+**Answer: B**

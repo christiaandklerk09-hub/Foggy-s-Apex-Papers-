@@ -1,0 +1,16 @@
+{
+  "name": "Apex Papers",
+  "short_name": "ApexPapers",
+  "description": "High-fidelity past paper study engine",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0709",
+  "theme_color": "#e11d48",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

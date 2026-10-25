@@ -1,0 +1,108 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    // Subjects collection for school subjects (Accounting, Business Studies, etc.)
+    match /subjects {
+      allow read, list: if true;
+    }
+    match /subjects/{subjectId} {
+      allow read, list, write: if true;
+    }
+
+    // Past papers collection storing metadata for full exam runs
+    match /past_papers {
+      allow read, list: if true;
+    }
+    match /past_papers/{paperId} {
+      allow read, list, write: if true;
+    }
+
+    // Questions collection tagged by subject and paper number
+    match /questions {
+      allow read, list, write: if true;
+    }
+    match /questions/{questionId} {
+      allow read, list, write: if true;
+    }
+
+    // Custom and updated questions edited by administrators
+    match /custom_questions {
+      allow read, list, write: if true;
+    }
+    match /custom_questions/{questionId} {
+      allow read, list, write: if true;
+    }
+
+    // Registry of deleted questions to suppress from paper generation
+    match /deleted_questions {
+      allow read, list, write: if true;
+    }
+    match /deleted_questions/{questionId} {
+      allow read, list, write: if true;
+    }
+
+    // Users collection for cross-device profile registration and access
+    match /users {
+      allow read, list, write: if true;
+    }
+    match /users/{userId} {
+      allow read, list, create, update: if true;
+      allow delete: if false; // Soft deletes only - prevent accidental data loss
+    }
+    match /users/{userId}/{document=**} {
+      allow read, list, write: if true;
+    }
+    
+    // User progress data (active sessions, exam results, attempt history)
+    match /user_data {
+      allow read, list, write: if true;
+    }
+    match /user_data/{userId} {
+      allow read, list, create, update: if true;
+      allow delete: if false; // Block deletion to prevent candidate progress loss
+    }
+    match /user_data/{userId}/{document=**} {
+      allow read, list, write: if true;
+    }
+
+    // Permanent immutable examination submissions (Zero-Loss Archive)
+    match /exam_submissions {
+      allow read, list: if true;
+    }
+    match /exam_submissions/{submissionId} {
+      allow read, list: if true;
+      allow create: if true;
+      allow update: if false;
+      allow delete: if true;
+    }
+
+    // Immutable audit and backup logs
+    match /exam_audit_logs {
+      allow read, list: if true;
+    }
+    match /exam_audit_logs/{logId} {
+      allow read, list: if true;
+      allow create: if true;
+      allow update: if false;
+      allow delete: if true;
+    }
+
+    // Application and branding settings (app icon, student avatars, custom theme configurations)
+    match /settings {
+      allow read, list: if true;
+    }
+    match /settings/{settingId} {
+      allow read, list, write: if true;
+    }
+    
+    // Test connectivity document
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+  }
+}

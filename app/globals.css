@@ -1,0 +1,189 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "react-easy-crop/react-easy-crop.css";
+@import "katex/dist/katex.min.css";
+
+/* Configure Tailwind v4 class-based dark variant */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Standardize box sizing globally & prevent viewport overflow */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Apex Papers Light Red Theme Styling & Academic Exam Scenery */
+:root {
+  --paper-red-light: #fff5f5;
+  --paper-red-surface: #fff8f8;
+  --paper-red-card: #ffffff;
+  --paper-red-subtle: #fff1f2;
+  --paper-red-border: #fecdd3;
+  --paper-red-accent: #fda4af;
+  --marking-red: #ef4444;
+  --marking-red-vibrant: #f43f5e;
+  --paper-pattern: radial-gradient(#fecdd3 0.6px, transparent 0.6px);
+  --paper-lines: linear-gradient(to bottom, transparent 23px, rgba(254, 205, 211, 0.45) 24px);
+}
+
+.dark {
+  --paper-red-light: #0f0709;
+  --paper-red-surface: #14080c;
+  --paper-red-card: #180a0f;
+  --paper-red-subtle: #1c0a12;
+  --paper-red-border: #4c1d28;
+  --paper-red-accent: #fb7185;
+  --marking-red: #ff6b6b;
+  --marking-red-vibrant: #f43f5e;
+  --paper-pattern: radial-gradient(#3f1520 0.6px, transparent 0.6px);
+  --paper-lines: linear-gradient(to bottom, transparent 23px, rgba(76, 29, 40, 0.4) 24px);
+}
+
+.bg-paper-grid {
+  background-image: var(--paper-pattern);
+  background-size: 20px 20px;
+}
+
+.bg-exam-lined {
+  background-image: var(--paper-lines);
+  background-size: 100% 24px;
+}
+
+.red-margin-line {
+  border-left: 2px solid rgba(244, 63, 94, 0.35);
+  box-shadow: inset 1px 0 0 rgba(254, 205, 211, 0.4);
+}
+
+.glow-red-card {
+  box-shadow: 0 0 24px -2px rgba(244, 63, 94, 0.22), 0 0 8px 0 rgba(255, 107, 107, 0.15), inset 0 0 14px 0 rgba(255, 77, 77, 0.08);
+}
+
+.glow-red-btn {
+  box-shadow: 0 4px 22px 0 rgba(244, 63, 94, 0.45);
+}
+
+.glow-coral-btn {
+  box-shadow: 0 4px 25px 0 rgba(251, 113, 133, 0.38);
+}
+
+.badge-red-glow {
+  box-shadow: 0 0 14px rgba(255, 107, 107, 0.38);
+}
+
+.badge-blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Hide scrollbars on category pill list */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Light Red Tinted Scenery & Card Glows */
+.sunlit-card {
+  box-shadow: 0 10px 30px -5px rgba(244, 63, 94, 0.12), 0 4px 14px -2px rgba(225, 29, 72, 0.06);
+}
+
+.light-red-glow {
+  box-shadow: 0 4px 20px -2px rgba(244, 63, 94, 0.28);
+}
+
+.light-red-subtle-border {
+  border-color: rgba(253, 164, 175, 0.6);
+}
+
+.glow-btn-red {
+  box-shadow: 0 6px 24px -3px rgba(244, 63, 94, 0.42);
+}
+
+.badge-blur-light {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Academic light red card styling */
+.exam-paper-accent {
+  background: linear-gradient(135deg, rgba(255, 241, 242, 0.8) 0%, rgba(255, 255, 255, 0.95) 100%);
+  border: 1px solid rgba(254, 205, 211, 0.8);
+}
+.dark .exam-paper-accent {
+  background: linear-gradient(135deg, rgba(32, 10, 18, 0.9) 0%, rgba(18, 7, 11, 0.95) 100%);
+  border: 1px solid rgba(76, 29, 40, 0.7);
+}
+
+/* Custom question and answer card layout settings */
+.question-card-container {
+  box-sizing: border-box !important;
+}
+
+.option-card-button {
+  box-sizing: border-box !important;
+  padding: 1rem !important;
+}
+
+/* Chapter Carousel Unique Keyframe Animations */
+@keyframes ecgPulse {
+  0% { stroke-dashoffset: 600; }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes radarSweep {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes waveFloat {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-6px) rotate(1deg); }
+}
+
+@keyframes rippleExpand {
+  0% { r: 6; opacity: 0.9; }
+  100% { r: 65; opacity: 0; }
+}
+
+@keyframes signalPulse {
+  0%, 100% { opacity: 0.4; transform: scale(0.96); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
+@keyframes streamFlow {
+  0% { stroke-dashoffset: 100; }
+  100% { stroke-dashoffset: 0; }
+}
+
+.animate-ecg-line {
+  stroke-dasharray: 600;
+  animation: ecgPulse 2.4s linear infinite;
+}
+
+.animate-radar-sweep {
+  transform-origin: 200px 140px;
+  animation: radarSweep 5s linear infinite;
+}
+
+.animate-wave-float {
+  animation: waveFloat 4s ease-in-out infinite;
+}
+
+.animate-signal-pulse {
+  animation: signalPulse 2s ease-in-out infinite;
+}
+
+.animate-stream-flow {
+  stroke-dasharray: 20, 10;
+  animation: streamFlow 1.8s linear infinite;
+}
+
+

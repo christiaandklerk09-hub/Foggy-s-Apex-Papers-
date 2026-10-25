@@ -1,0 +1,1307 @@
+# SAFEHARBOR OPERATIONS - CHAPTER 10
+## Emergency Care - Two
+### Multiple Choice Questions
+
+---
+
+**Question 1:** What is the primary cause of shock according to the manual?
+- A) Excessive blood pressure in the arteries
+- B) Insufficient blood circulating to the cells of the body
+- C) Over-activity of the nervous system
+- D) Lack of oxygen in the lungs only
+
+**Answer: B**
+
+---
+
+**Question 2:** Which of the following is NOT listed as a cause of shock?
+- A) Heart malfunction
+- B) Internal bleeding
+- C) Low blood sugar levels
+- D) Lung malfunction
+
+**Answer: C**
+
+---
+
+**Question 3:** What does the "AVPU" scale measure?
+- A) Blood pressure levels
+- B) Levels of consciousness
+- C) Breathing rate
+- D) Pain intensity
+
+**Answer: B**
+
+---
+
+**Question 4:** According to the AVPU scale, what does "VERBAL RESPONSE ONLY" mean?
+- A) The casualty is awake and fully responsive
+- B) The casualty is sleepy, disoriented, and responds only to direct questions
+- C) The casualty responds only to pain
+- D) The casualty is completely unconscious
+
+**Answer: B**
+
+---
+
+**Question 5:** How long is a casualty considered an immediate casualty if they are unconscious?
+- A) Longer than 30 seconds
+- B) Longer than 1 minute
+- C) Longer than 2 minutes
+- D) Longer than 5 minutes
+
+**Answer: C**
+
+---
+
+**Question 6:** What is a dislocation?
+- A) A break in the bone
+- B) An injury where a bone is moved out of its normal position at a joint
+- C) A tear in the muscle
+- D) A stretching of the ligaments
+
+**Answer: B**
+
+---
+
+**Question 7:** Which type of fracture does NOT penetrate through the skin?
+- A) Open fracture
+- B) Closed fracture
+- C) Complicated fracture
+- D) All fractures penetrate the skin
+
+**Answer: B**
+
+---
+
+**Question 8:** What is the correct treatment approach for immobilizing a muscle, bone, or joint injury?
+- A) Immediately reposition the limb to its normal position
+- B) Apply ice for only 5 minutes
+- C) Splint the injury in the position found and include joints above and below the injury
+- D) Allow the person to continue moving the injured area
+
+**Answer: C**
+
+---
+
+**Question 9:** What does RICE stand for in treating acute muscle, ligament, and bone injuries?
+- A) Rest, Ice, Compression, Exercise
+- B) Rest, Immobilize, Cold, Elevation
+- C) Rest, Ice, Compression, Elevation
+- D) Relax, Ice, Compress, Extend
+
+**Answer: C**
+
+---
+
+**Question 10:** How long should ice packs be applied during RICE treatment?
+- A) 2-5 minutes
+- B) 5-15 minutes
+- C) 15-30 minutes
+- D) 30-60 minutes
+
+**Answer: B**
+
+---
+
+**Question 11:** What is Coronary Heart Disease (CHD)?
+- A) A condition affecting the brain's blood vessels
+- B) A condition where blood flow through the coronary arteries becomes insufficient
+- C) An infection of the heart muscle
+- D) A condition causing irregular heartbeat only
+
+**Answer: B**
+
+---
+
+**Question 12:** Which of the following is a risk factor for CHD that we cannot change?
+- A) Smoking
+- B) Family history
+- C) Lack of exercise
+- D) Being overweight
+
+**Answer: B**
+
+---
+
+**Question 13:** What is angina?
+- A) A severe blockage of the coronary artery
+- B) Gradual narrowing of arteries causing chest pain with mild exertion that fades after rest
+- C) Complete stopping of the heart
+- D) An infection of the heart lining
+
+**Answer: B**
+
+---
+
+**Question 14:** What is the most common symptom of a heart attack?
+- A) Nausea only
+- B) Shortness of breath only
+- C) Chest pain, usually in the chest but can spread to neck, jaw, or arms
+- D) Dizziness only
+
+**Answer: C**
+
+---
+
+**Question 15:** What happens in ventricular fibrillation?
+- A) The heart beats irregularly but still pumps
+- B) The heart has a chaotic and disorganized rhythm with no significant output
+- C) The heart rate becomes abnormally slow
+- D) The heart beats too fast but regularly
+
+**Answer: B**
+
+---
+
+**Question 16:** Which type of burn only affects the upper layer of skin?
+- A) Partial thickness (2nd degree)
+- B) Full thickness (3rd degree)
+- C) Superficial (1st degree) burns
+- D) Deep partial thickness burns
+
+**Answer: C**
+
+---
+
+**Question 17:** What is the immediate treatment for burns?
+- A) Apply creams or home remedies immediately
+- B) Cool the burned area with cold water for 15-30 minutes
+- C) Wrap the area tightly with bandages
+- D) Apply ice directly to the skin
+
+**Answer: B**
+
+---
+
+**Question 18:** Burns larger than which size need medical attention?
+- A) A coin
+- B) A R2 coin
+- C) A R5 coin
+- D) A R10 coin
+
+**Answer: C**
+
+---
+
+**Question 19:** What should NOT be done for burns?
+- A) Cool the area with water
+- B) Break blisters or pull off stuck clothing
+- C) Cover the area
+- D) Transport to hospital if large
+
+**Answer: B**
+
+---
+
+**Question 20:** What is asthma characterized by?
+- A) Only low blood pressure
+- B) Swelling of the airway lining and spasm of muscles encircling the airways
+- C) Permanent narrowing of the airways
+- D) Infection of the lungs
+
+**Answer: B**
+
+---
+
+**Question 21:** How is asthma reversed according to the manual?
+- A) By resting only
+- B) By using inhaled medications (bronchi-dilators)
+- C) By drinking water
+- D) By lying down flat
+
+**Answer: B**
+
+---
+
+**Question 22:** What is diabetes characterized by?
+- A) Abnormally high blood sugar levels
+- B) Abnormally low blood pressure
+- C) Excessive sweating only
+- D) Rapid weight loss only
+
+**Answer: A**
+
+---
+
+**Question 23:** What should be given to a conscious diabetic casualty in an emergency?
+- A) Insulin immediately
+- B) Water only
+- C) A biscuit and cheese or something sweet to eat
+- D) Nothing until medical help arrives
+
+**Answer: C**
+
+---
+
+**Question 24:** What is epilepsy?
+- A) A temporary loss of consciousness from shock
+- B) A long-term condition resulting from disturbances in brain impulses causing loss of consciousness
+- C) An infection of the brain
+- D) A condition affecting only the heart
+
+**Answer: B**
+
+---
+
+**Question 25:** What is hyperventilation?
+- A) Slow, shallow breathing
+- B) Holding the breath for extended periods
+- C) Deep rapid breathing that may be uncontrollable
+- D) Normal breathing during exercise
+
+**Answer: C**
+
+---
+
+**Question 26:** What can help alleviate hyperventilation?
+- A) Rapid breathing into the air
+- B) A cupped hand or paper bag over the mouth and nose
+- C) Drinking cold water
+- D) Lying flat on the back
+
+**Answer: B**
+
+---
+
+**Question 27:** What condition occurs when the whole body is cooled due to surroundings like cold water or wind?
+- A) Frostbite
+- B) Heat exhaustion
+- C) Hypothermia
+- D) Dehydration
+
+**Answer: C**
+
+---
+
+**Question 28:** At what water temperature can hypothermia occur?
+- A) Only below 0°C
+- B) Only below 5°C
+- C) When water temperature is less than normal body temperature
+- D) Only in winter months
+
+**Answer: C**
+
+---
+
+**Question 29:** What should NOT be given to a person with hypothermia?
+- A) Warm drinks
+- B) Dry clothing
+- C) Slow warming
+- D) Alcohol
+
+**Answer: D**
+
+---
+
+**Question 30:** What is frostbite?
+- A) Hypothermia of the whole body
+- B) A cold injury to part of the body affecting fingers, toes, nose, and ears
+- C) Mild cooling of the skin
+- D) A burn from cold metal
+
+**Answer: B**
+
+---
+
+**Question 31:** What is the most common cause of cardiac arrest in children?
+- A) Heart attack
+- B) Respiratory arrest or failure
+- C) Choking on food
+- D) Ventricular fibrillation
+
+**Answer: B**
+
+---
+
+**Question 32:** What is a life-threatening emergency?
+- A) A minor injury requiring basic first aid
+- B) A sickness or injury so severe that the person is likely to die
+- C) Any situation requiring a bandage
+- D) A situation that can wait for several hours
+
+**Answer: B**
+
+---
+
+**Question 33:** What should be done if a casualty is choking and cannot get their head lower than their chest?
+- A) Perform back slaps immediately
+- B) Do NOT place your fist directly under the ribcage
+- C) Use abdominal thrusts without hesitation
+- D) Leave them until help arrives
+
+**Answer: B**
+
+---
+
+**Question 34:** For pregnant or obese choking casualties, what should be used instead of abdominal thrusts?
+- A) Back slaps only
+- B) Finger sweeps
+- C) Chest thrusts
+- D) Abdominal thrusts in a different position
+
+**Answer: C**
+
+---
+
+**Question 35:** What is the correct position for chest thrusts on a choking person?
+- A) On the lower abdomen
+- B) On the upper chest near the shoulders
+- C) In the centre of the chest between the nipples
+- D) On the lower ribs
+
+**Answer: C**
+
+---
+
+**Question 36:** What should be done each time the airway is opened during CPR for an unconscious choking infant?
+- A) Perform a blind finger sweep
+- B) Look for a foreign object and remove it if visible
+- C) Apply back blows again
+- D) Start ventilation immediately
+
+**Answer: B**
+
+---
+
+**Question 37:** What should NOT be done during a blind finger sweep on a choking infant?
+- A) Look for visible objects
+- B) Perform a blind finger sweep
+- C) Remove visible objects
+- D) Check the mouth
+
+**Answer: B**
+
+---
+
+**Question 38:** How should hand hygiene be performed to prevent infection?
+- A) With a quick rinse under water
+- B) By rubbing hands vigorously with soap for at least 20 seconds, covering all surfaces
+- C) With alcohol-based sanitizer only
+- D) Only before eating
+
+**Answer: B**
+
+---
+
+**Question 39:** When should hands be washed according to the manual?
+- A) Only after work
+- B) Before providing care, after eating, after using the restroom, and after providing care
+- C) Only when visibly dirty
+- D) Once a day is sufficient
+
+**Answer: B**
+
+---
+
+**Question 40:** What is the recommended ratio for disinfectant solution to clean up blood spills?
+- A) 1 part bleach to 5 parts water
+- B) 1 part bleach to 9 parts water (10% solution)
+- C) 1 part bleach to 20 parts water
+- D) Pure bleach only
+
+**Answer: B**
+
+---
+
+**Question 41:** How long should a disinfectant solution be allowed to stand on an area before cleaning?
+- A) At least 5 minutes
+- B) At least 10 minutes
+- C) At least 20 minutes
+- D) At least 30 minutes
+
+**Answer: B**
+
+---
+
+**Question 42:** What should be done if you are splashed with blood or infectious material around your mouth or nose?
+- A) Wipe it off with a tissue
+- B) Leave it until you can wash later
+- C) Wash the area with water
+- D) Apply alcohol-based sanitizer
+
+**Answer: C**
+
+---
+
+**Question 43:** If your eyes are involved in an exposure incident, how long should they be washed?
+- A) 5 minutes
+- B) 10 minutes
+- C) 20 minutes
+- D) 30 minutes
+
+**Answer: C**
+
+---
+
+**Question 44:** What does DEFG HHH stand for in secondary assessment?
+- A) Describe, Examine, Focus, General, Head, Heart, Hearing
+- B) Delicate nervous system, Epidermis, Fractures, General, History, Handle with care, Hand over
+- C) Defence, Examination, Focus, General, Health, Hearing, History
+- D) Determine, Emergency, Function, General, Health, Hearing, History
+
+**Answer: B**
+
+---
+
+**Question 45:** When should a secondary assessment be performed?
+- A) Before the primary assessment
+- B) Only if the person is unconscious
+- C) When minutes count, after the primary assessment
+- D) Only at the hospital
+
+**Answer: C**
+
+---
+
+**Question 46:** What is included in the SAMPLE history gathering process?
+- A) Only symptoms
+- B) Signs, Symptoms, Allergies, Medication, Past Problems, Last oral intake, Events leading to emergency
+- C) Age and weight only
+- D) Medical insurance information
+
+**Answer: B**
+
+---
+
+**Question 47:** What is triage in emergency care?
+- A) Emergency surgery
+- B) The sorting process where more than one casualty is involved
+- C) A type of first aid treatment
+- D) A medical facility
+
+**Answer: B**
+
+---
+
+**Question 48:** Who needs immediate help according to triage priorities?
+- A) Anyone with minor cuts
+- B) Those not breathing, breathing with difficulty, unconscious for more than 2 minutes, or with severe bleeding
+- C) Anyone who is conscious
+- D) Only those who are complaining
+
+**Answer: B**
+
+---
+
+**Question 49:** What is chlorine exposure?
+- A) A potential problem only for pool managers
+- B) A potential problem pool and water park staff may be exposed to
+- C) Not a health concern
+- D) Only dangerous in outdoor pools
+
+**Answer: B**
+
+---
+
+**Question 50:** What should be the first action if a casualty is exposed to chlorine gas?
+- A) Apply water immediately to the eyes
+- B) Remove the exposed casualty to an uncontaminated area
+- C) Give oxygen immediately
+- D) Call an ambulance first
+
+**Answer: B**
+
+---
+
+**Question 51:** How long should eyes be flushed if exposed to liquid chlorine?
+- A) 5 minutes
+- B) 10 minutes
+- C) 15 minutes
+- D) 30 minutes
+
+**Answer: C**
+
+---
+
+**Question 52:** For liquid chlorine skin contact, how long should the contaminated skin be flushed with running water?
+- A) 5 minutes
+- B) 10 minutes
+- C) 15 minutes
+- D) 20 minutes
+
+**Answer: C**
+
+---
+
+**Question 53:** What should NOT be done for liquid chlorine skin contact?
+- A) Flush with water
+- B) Remove contaminated clothing
+- C) Apply ointments to damaged skin
+- D) Ensure all traces are removed
+
+**Answer: C**
+
+---
+
+**Question 54:** What is the most important factor in handling major injuries with severe tissue damage and bleeding?
+- A) Rapid transport to hospital
+- B) Immediate application of dressings
+- C) Initial assessment HHH CAB and stopping the bleeding
+- D) Keeping the person calm
+
+**Answer: C**
+
+---
+
+**Question 55:** What is the phone number for the national emergency number in South Africa?
+- A) 911
+- B) 999
+- C) 10177
+- D) 112
+
+**Answer: C**
+
+---
+
+**Question 56:** What should be done before performing CPR on a victim with severe bleeding?
+- A) Start CPR immediately without stopping for bleeding
+- B) Attempt to stop the bleeding first, then monitor and alternate with CPR as needed
+- C) Only give oxygen
+- D) Wait for medical help before doing anything
+
+**Answer: B**
+
+---
+
+**Question 57:** What type of bleeding can usually be stopped by direct pressure and elevation?
+- A) Arterial bleeding
+- B) Venous bleeding
+- C) Internal bleeding
+- D) Capillary bleeding only
+
+**Answer: B**
+
+---
+
+**Question 58:** What is the maximum time a tourniquet should be applied without being released?
+- A) 30 minutes
+- B) 1 hour
+- C) 2 hours
+- D) 4 hours
+
+**Answer: C**
+
+---
+
+**Question 59:** How often should a tourniquet be released for blood flow restoration?
+- A) Every 15 minutes for 1-2 minutes
+- B) Every 30 minutes for 3-5 minutes
+- C) Every hour for 3-5 minutes
+- D) Only at the hospital
+
+**Answer: C**
+
+---
+
+**Question 60:** What is the primary concern with shark attacks and other major aquatic trauma?
+- A) Ensuring the casualty is comfortable
+- B) Getting them out of water quickly and controlling massive blood loss
+- C) Making sure they are conscious
+- D) Removing all sand from wounds
+
+**Answer: B**
+
+---
+
+## EXTENDED ASSESSMENT
+
+**Question 61:** What is the difference between signs and symptoms in medical assessment?
+- A) Signs are what the casualty feels; symptoms are what you observe
+- B) Symptoms are what the casualty reports feeling; signs are what you observe
+- C) They are the same thing
+- D) Signs are only visible injuries
+
+**Answer: B**
+
+---
+
+**Question 62:** What does pale, clammy skin indicate in a casualty?
+- A) The person is cold
+- B) The person may be in shock
+- C) The person is dehydrated only
+- D) Normal skin condition
+
+**Answer: B**
+
+---
+
+**Question 63:** What is cyanosis?
+- A) A rash on the skin
+- B) A blue or purple discoloration of the skin due to lack of oxygen
+- C) An allergic reaction
+- D) A sign of dehydration
+
+**Answer: B**
+
+---
+
+**Question 64:** What does a rapid pulse in a casualty typically indicate?
+- A) Good health
+- B) Potential shock or anxiety
+- C) The person is exercising
+- D) Normal resting condition
+
+**Answer: B**
+
+---
+
+**Question 65:** What is the normal resting heart rate range for adults?
+- A) 40-60 beats per minute
+- B) 60-100 beats per minute
+- C) 100-120 beats per minute
+- D) 120-160 beats per minute
+
+**Answer: B**
+
+---
+
+**Question 66:** What should be done if a casualty has an open wound with severe bleeding?
+- A) Pour water on it to clean it
+- B) Remove the bandage to check the wound
+- C) Apply direct pressure with a clean cloth and elevate if possible
+- D) Wait to see if it stops on its own
+
+**Answer: C**
+
+---
+
+**Question 67:** What is the primary purpose of a pressure bandage?
+- A) To make the wound look better
+- B) To immobilize the limb
+- C) To control bleeding by applying pressure
+- D) To keep the wound warm
+
+**Answer: C**
+
+---
+
+**Question 68:** When applying a dressing to a wound, what should be avoided?
+- A) Using clean material
+- B) Removing the dressing once applied to check the wound
+- C) Ensuring proper coverage
+- D) Securing it firmly
+
+**Answer: B**
+
+---
+
+**Question 69:** What is the correct way to handle an impaled object in a wound?
+- A) Remove it immediately
+- B) Do NOT remove it; stabilize it with bandages and seek medical help
+- C) Pour water around it
+- D) Apply pressure on top of it
+
+**Answer: B**
+
+---
+
+**Question 70:** What is the management approach for a casualty with suspected internal bleeding?
+- A) Give them food and water
+- B) Have them lie flat
+- C) Keep them warm, monitor vital signs, and transport to hospital urgently
+- D) Apply heat to the abdomen
+
+**Answer: C**
+
+---
+
+**Question 71:** What signs indicate possible internal bleeding?
+- A) Only bruising on the skin
+- B) Pale skin, rapid pulse, rapid breathing, and possibly vomiting blood
+- C) High fever only
+- D) Localized swelling only
+
+**Answer: B**
+
+---
+
+**Question 72:** What is the correct position for a casualty in shock?
+- A) Sitting upright
+- B) On their side
+- C) Lying flat with legs elevated above heart level (unless head injury suspected)
+- D) Standing up to maintain circulation
+
+**Answer: C**
+
+---
+
+**Question 73:** What should be kept warm during shock treatment?
+- A) Only the head
+- B) Only the legs
+- C) The entire body with blankets
+- D) Only the abdomen
+
+**Answer: C**
+
+---
+
+**Question 74:** What does CPR stand for?
+- A) Cardiac Pressure Response
+- B) Cardiopulmonary Resuscitation
+- C) Chest Pressure Release
+- D) Cardiac Patient Recovery
+
+**Answer: B**
+
+---
+
+**Question 75:** What is the correct compression depth for adult CPR?
+- A) 2-3 cm
+- B) 3-4 cm
+- C) 4-5 cm
+- D) 5-6 cm
+
+**Answer: D**
+
+---
+
+**Question 76:** What is the compression-to-ventilation ratio for single rescuer CPR on an adult?
+- A) 15:2
+- B) 30:2
+- C) 20:3
+- D) 25:5
+
+**Answer: B**
+
+---
+
+**Question 77:** How many seconds should a pulse check take?
+- A) 5-10 seconds
+- B) 10-15 seconds
+- C) 15-30 seconds
+- D) 30-60 seconds
+
+**Answer: A**
+
+---
+
+**Question 78:** What should be done if you are unsure whether a pulse is present in an unresponsive person?
+- A) Wait longer to check again
+- B) Assume no pulse and begin CPR
+- C) Give rescue breaths only
+- D) Continue to monitor without intervention
+
+**Answer: B**
+
+---
+
+**Question 79:** When using an Automated External Defibrillator (AED), what should you do first?
+- A) Start CPR immediately
+- B) Turn on the AED and follow its prompts
+- C) Check the casualty's pulse
+- D) Call for help only
+
+**Answer: B**
+
+---
+
+**Question 80:** What is the correct position for placing AED pads on an adult?
+- A) Both pads on the left side of chest
+- B) One pad on upper right chest, one on lower left side
+- C) Both pads on the right side
+- D) One pad on neck, one on chest
+
+**Answer: B**
+
+---
+
+**Question 81:** What shock caused by infection in the bloodstream is called?
+- A) Hypovolemic shock
+- B) Cardiogenic shock
+- C) Septic shock
+- D) Anaphylactic shock
+
+**Answer: C**
+
+---
+
+**Question 82:** What is anaphylactic shock?
+- A) Shock from blood loss
+- B) Shock from heart failure
+- C) A severe allergic reaction causing shock
+- D) Shock from infection
+
+**Answer: C**
+
+---
+
+**Question 83:** What are the early signs of anaphylactic shock?
+- A) Only itching and rash
+- B) Wheezing, difficulty breathing, and swelling of the face and throat
+- C) High blood pressure only
+- D) Increased appetite
+
+**Answer: B**
+
+---
+
+**Question 84:** What is the emergency treatment for anaphylactic shock?
+- A) Give antihistamines only
+- B) Administer an epinephrine auto-injector (EpiPen) immediately
+- C) Keep the person warm
+- D) Apply cold compress
+
+**Answer: B**
+
+---
+
+**Question 85:** What is a strain?
+- A) A break in the bone
+- B) A dislocation of a joint
+- C) An overstretching or tearing of muscle fibers
+- D) A complete separation of bones
+
+**Answer: C**
+
+---
+
+**Question 86:** What is a sprain?
+- A) An overstretching or tearing of muscle fibers
+- B) An overstretching or tearing of ligaments
+- C) A break in the bone
+- D) A separation of tendons
+
+**Answer: B**
+
+---
+
+**Question 87:** What is the difference between a sprain and a strain?
+- A) There is no difference
+- B) A sprain affects muscles; a strain affects ligaments
+- C) A strain affects muscles; a sprain affects ligaments
+- D) A sprain is always more severe
+
+**Answer: C**
+
+---
+
+**Question 88:** What should be done for a severely swollen joint?
+- A) Apply heat immediately
+- B) Massage the area
+- C) Apply compression and elevation after initial ice
+- D) Continue exercising the joint
+
+**Answer: C**
+
+---
+
+**Question 89:** When should a person with a suspected fracture be transported to hospital?
+- A) Only if the bone breaks the skin
+- B) Immediately, before attempting any treatment
+- C) After attempting to straighten the limb
+- D) Only if there is severe pain
+
+**Answer: B**
+
+---
+
+**Question 90:** What is a compound (open) fracture?
+- A) A fracture where the broken bone does not penetrate the skin
+- B) A fracture where the broken bone penetrates through the skin
+- C) A fracture involving multiple bones
+- D) A fracture that heals within days
+
+**Answer: B**
+
+---
+
+**Question 91:** What complication can result from a compound fracture?
+- A) Only minor swelling
+- B) Infection from exposure to the environment
+- C) Increased bone strength
+- D) Faster healing
+
+**Answer: B**
+
+---
+
+**Question 92:** What is the priority in treating a casualty with a compound fracture and bleeding?
+- A) Align the bones first
+- B) Control the bleeding while protecting the wound from contamination
+- C) Apply a cast immediately
+- D) Clean the wound thoroughly
+
+**Answer: B**
+
+---
+
+**Question 93:** What should NOT be done when splinting a fracture?
+- A) Immobilize the joint above the fracture
+- B) Immobilize the joint below the fracture
+- C) Attempt to realign severely deformed limbs
+- D) Pad the splint for comfort
+
+**Answer: C**
+
+---
+
+**Question 94:** What is the purpose of padding a splint?
+- A) To make it look better
+- B) To prevent pressure ulcers and increase comfort
+- C) To make it waterproof
+- D) To increase the splint's rigidity
+
+**Answer: B**
+
+---
+
+**Question 95:** How should an arm with a possible shoulder dislocation be immobilized?
+- A) In the position found, using a sling
+- B) Straightened immediately
+- C) Raised above the head
+- D) Placed in ice water
+
+**Answer: A**
+
+---
+
+**Question 96:** What is the most common site for dislocation?
+- A) Hip
+- B) Knee
+- C) Shoulder
+- D) Ankle
+
+**Answer: C**
+
+---
+
+**Question 97:** What can happen if a dislocated joint is not treated promptly?
+- A) It will relocate on its own
+- B) Nerve and blood vessel damage may occur
+- C) It will strengthen the joint
+- D) No complications develop
+
+**Answer: B**
+
+---
+
+**Question 98:** What is a comminuted fracture?
+- A) A fracture in one place
+- B) A fracture where the bone is broken into multiple pieces
+- C) A fracture that does not need treatment
+- D) A fracture that heals within days
+
+**Answer: B**
+
+---
+
+**Question 99:** What is compartment syndrome?
+- A) A simple bruise
+- B) A condition where swelling within a confined space compromises circulation
+- C) A type of fracture
+- D) A muscle strain
+
+**Answer: B**
+
+---
+
+**Question 100:** What are the signs of compartment syndrome?
+- A) Only minor swelling
+- B) Pain out of proportion to the injury, swelling, and possible numbness
+- C) High fever
+- D) Only skin discoloration
+
+**Answer: B**
+
+---
+
+**Question 101:** What is the primary cause of stroke?
+- A) Low blood pressure only
+- B) Blockage or rupture of blood vessels in the brain affecting blood flow
+- C) High cholesterol only
+- D) Stress only
+
+**Answer: B**
+
+---
+
+**Question 102:** What does FAST stand for in recognizing stroke symptoms?
+- A) Fast Assessment Stroke Test
+- B) Face drooping, Arm weakness, Speech difficulty, Time to call emergency
+- C) Fever, Aches, Stiffness, Tremor
+- D) Fatigue, Anxiety, Swelling, Tingling
+
+**Answer: B**
+
+---
+
+**Question 103:** What should be done for a casualty experiencing a stroke?
+- A) Give them food
+- B) Lie them flat
+- C) Note the time symptoms started and transport urgently to hospital
+- D) Wait to see if symptoms improve
+
+**Answer: C**
+
+---
+
+**Question 104:** Why is it important to know when stroke symptoms started?
+- A) It helps pass the time
+- B) It determines eligibility for emergency stroke treatment at hospital
+- C) It is not important
+- D) It helps with billing
+
+**Answer: B**
+
+---
+
+**Question 105:** What is the correct position for a stroke casualty who is breathing normally?
+- A) Sitting upright
+- B) On their back
+- C) In the recovery position
+- D) Standing up
+
+**Answer: C**
+
+---
+
+**Question 106:** What are the main types of shock mentioned in the manual?
+- A) Only hypovolemic and cardiogenic
+- B) Hypovolemic, cardiogenic, septic, anaphylactic, and obstructive
+- C) Only allergic shock
+- D) Only psychological shock
+
+**Answer: B**
+
+---
+
+**Question 107:** What is hypovolemic shock?
+- A) Shock from heart failure
+- B) Shock resulting from significant blood loss or fluid loss
+- C) Shock from infection
+- D) Shock from allergies
+
+**Answer: B**
+
+---
+
+**Question 108:** What is cardiogenic shock?
+- A) Shock from blood loss
+- B) Shock resulting from the heart's inability to pump effectively
+- C) Shock from infection
+- D) Shock from allergies
+
+**Answer: B**
+
+---
+
+**Question 109:** What is the most important intervention for a casualty in shock?
+- A) Keeping them awake
+- B) Rapid transportation to hospital
+- C) Giving them water
+- D) Keeping them standing
+
+**Answer: B**
+
+---
+
+**Question 110:** How should bleeding from the nose be managed?
+- A) Lie the person flat
+- B) Tilt the head back
+- C) Sit them upright, tilt head forward, apply pressure to the nose, and seek medical help if it continues
+- D) Pack the nose with cotton and lie them down
+
+**Answer: C**
+
+---
+
+**Question 111:** What is the correct management for ear bleeding?
+- A) Apply direct pressure inside the ear
+- B) Allow drainage, keep the area clean, and seek medical help
+- C) Plug the ear immediately
+- D) Pour water in to clean it
+
+**Answer: B**
+
+---
+
+**Question 112:** What should be done if there is bleeding from the mouth or tongue?
+- A) Swallow the blood
+- B) Rinse gently with water, apply pressure if possible, and monitor for airway obstruction
+- C) Ignore it
+- D) Apply ice to the forehead only
+
+**Answer: B**
+
+---
+
+**Question 113:** What is a hemostatic agent?
+- A) A medication for pain
+- B) A substance that helps stop bleeding
+- C) A type of bandage
+- D) An antibiotic
+
+**Answer: B**
+
+---
+
+**Question 114:** When should a hemostatic dressing be applied?
+- A) Only for minor cuts
+- B) For uncontrollable bleeding that doesn't respond to direct pressure
+- C) For all wounds
+- D) Never
+
+**Answer: B**
+
+---
+
+**Question 115:** What is the correct way to apply a tourniquet?
+- A) As tight as possible immediately
+- B) 2-3 inches above the wound, tight enough to stop bleeding, with the time noted
+- C) Below the wound
+- D) Loosely around the limb
+
+**Answer: B**
+
+---
+
+**Question 116:** What should be visible when a tourniquet is correctly applied?
+- A) The wound itself
+- B) Severe discoloration
+- C) The tourniquet and the time it was applied
+- D) Nothing unusual
+
+**Answer: C**
+
+---
+
+**Question 117:** What is the purpose of noting the time a tourniquet is applied?
+- A) To keep track of duration to prevent tissue damage
+- B) For billing purposes
+- C) Just a formality
+- D) No particular reason
+
+**Answer: A**
+
+---
+
+**Question 118:** What is the recovery position?
+- A) Lying on the back
+- B) Lying on the side with airway open and drainage possible
+- C) Sitting upright
+- D) Standing
+
+**Answer: B**
+
+---
+
+**Question 119:** When should the recovery position be used?
+- A) Only for unconscious breathing casualties
+- B) For all casualties
+- C) Only for conscious casualties
+- D) Never
+
+**Answer: A**
+
+---
+
+**Question 120:** What is the correct sequence for performing the recovery position?
+- A) Roll the person quickly without care for injuries
+- B) Turn head to side, tilt hips, extend lower arm, check airway
+- C) Do not move the person at all
+- D) Only move the head
+
+**Answer: B**
+
+---
+
+**Question 121:** What is a foreign body airway obstruction (FBAO)?
+- A) A natural narrowing of airways
+- B) A blockage of the airway by an object or food
+- C) An infection
+- D) A type of asthma
+
+**Answer: B**
+
+---
+
+**Question 122:** What is the first sign of FBAO in a conscious person?
+- A) Inability to speak or cry
+- B) Loss of consciousness
+- C) Coughing
+- D) Snoring
+
+**Answer: A**
+
+---
+
+**Question 123:** What should be done for a conscious choking person who can cough?
+- A) Perform abdominal thrusts immediately
+- B) Perform back slaps
+- C) Encourage coughing and monitor
+- D) Apply a tourniquet
+
+**Answer: C**
+
+---
+
+**Question 124:** What is the danger of performing abdominal thrusts on someone who is coughing effectively?
+- A) It helps them
+- B) It can cause internal injuries
+- C) There is no danger
+- D) It improves cough
+
+**Answer: B**
+
+---
+
+**Question 125:** What should be done if a choking casualty becomes unconscious?
+- A) Stop and wait for help
+- B) Lower them to the ground and begin CPR
+- C) Continue back slaps only
+- D) Call for help and leave them
+
+**Answer: B**
+
+---
+
+**Question 126:** How many back slaps should be given to a conscious choking adult?
+- A) 1-2
+- B) 3-4
+- C) 5
+- D) 10
+
+**Answer: C**
+
+---
+
+**Question 127:** How many abdominal thrusts should be given to a conscious choking adult?
+- A) 1-2
+- B) 3-4
+- C) 5
+- D) 10
+
+**Answer: C**
+
+---
+
+**Question 128:** What is the correct hand placement for abdominal thrusts?
+- A) Over the ribcage
+- B) On the neck
+- C) Just above the umbilicus, below the ribcage
+- D) On the back
+
+**Answer: C**
+
+---
+
+**Question 129:** Why should the xiphoid process be avoided during abdominal thrusts?
+- A) It is not important
+- B) It can break and cause internal injury
+- C) It improves the technique
+- D) It aids the process
+
+**Answer: B**
+
+---
+
+**Question 130:** What should be done after each attempt to relieve choking?
+- A) Nothing different
+- B) Check the mouth for visible objects if unconscious
+- C) Give up
+- D) Apply pressure to the chest
+
+**Answer: B**
+
+---

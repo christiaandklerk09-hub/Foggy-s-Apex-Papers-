@@ -1,0 +1,191 @@
+{
+  "entities": {
+    "Subject": {
+      "title": "Subject",
+      "description": "Grade 12 academic curriculum subject definition",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "shortName": { "type": "string" },
+        "icon": { "type": "string" },
+        "color": { "type": "string" },
+        "description": { "type": "string" },
+        "grade": { "type": "string" },
+        "papersCount": { "type": "number" }
+      },
+      "required": ["id", "name", "color"]
+    },
+    "PastPaper": {
+      "title": "PastPaper",
+      "description": "Grade 12 official past exam paper practice paper",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "subjectId": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "code": { "type": "string" },
+        "paperNumber": { "type": "number" },
+        "totalMarks": { "type": "number" },
+        "passMark": { "type": "number" },
+        "timeLimitMinutes": { "type": "number" },
+        "description": { "type": "string" }
+      },
+      "required": ["id", "subjectId", "title", "totalMarks", "passMark"]
+    },
+    "Question": {
+      "title": "Question",
+      "description": "Past paper multiple choice examination question",
+      "type": "object",
+      "properties": {
+        "id": { "type": "number" },
+        "subjectId": { "type": "string" },
+        "paperId": { "type": "string" },
+        "question": { "type": "string" },
+        "category": { "type": "string" },
+        "options": { "type": "array" },
+        "correctAnswer": { "type": "string" },
+        "explanation": { "type": "string" }
+      },
+      "required": ["id", "question", "options", "correctAnswer"]
+    },
+    "DeletedQuestion": {
+      "title": "DeletedQuestion",
+      "description": "Record of question deleted from past paper runs",
+      "type": "object",
+      "properties": {
+        "paperId": { "type": "string" },
+        "questionId": { "type": "number" },
+        "deletedAt": { "type": "string" },
+        "deletedBy": { "type": "string" }
+      },
+      "required": ["paperId", "questionId", "deletedAt"]
+    },
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Registered Grade 12 candidate or administrator profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "accessCode": { "type": "string" },
+        "name": { "type": "string" },
+        "club": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "lastLoginAt": { "type": "string" },
+        "avatarColor": { "type": "string" },
+        "avatarImage": { "type": "string" },
+        "isArchived": { "type": "boolean" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "accessCode", "name"]
+    },
+    "UserProgressData": {
+      "title": "UserProgressData",
+      "description": "Progress, saved exam sessions, and completed attempt history for a student",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "profile": { "$ref": "#/entities/UserProfile" },
+        "savedSessions": { "type": "object" },
+        "examHistory": { "type": "array" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "profile"]
+    },
+    "ExamSubmission": {
+      "title": "ExamSubmission",
+      "description": "Permanent immutable completed past paper exam submission",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "paperId": { "type": "string" },
+        "paperTitle": { "type": "string" },
+        "paperSubtitle": { "type": "string" },
+        "paperCode": { "type": "string" },
+        "score": { "type": "number" },
+        "totalMarks": { "type": "number" },
+        "percentage": { "type": "number" },
+        "passed": { "type": "boolean" },
+        "passMark": { "type": "number" },
+        "completedAt": { "type": "string" },
+        "timeElapsed": { "type": "number" },
+        "answers": { "type": "object" },
+        "missedIds": { "type": "array" },
+        "candidateName": { "type": "string" },
+        "accessCode": { "type": "string" },
+        "clubName": { "type": "string" },
+        "categoryBreakdown": { "type": "object" },
+        "submittedAt": { "type": "string" },
+        "isDeleted": { "type": "boolean" }
+      },
+      "required": ["id", "paperId", "score", "totalMarks", "accessCode", "candidateName"]
+    },
+    "ExamAuditLog": {
+      "title": "ExamAuditLog",
+      "description": "Immutable audit and backup log entry for exam persistence",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "submissionId": { "type": "string" },
+        "accessCode": { "type": "string" },
+        "candidateName": { "type": "string" },
+        "action": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "payloadSnapshot": { "type": "object" }
+      },
+      "required": ["id", "submissionId", "accessCode", "action", "timestamp"]
+    },
+    "AppSettings": {
+      "title": "AppSettings",
+      "description": "Application settings including branding, custom app icon, and student avatar presets",
+      "type": "object",
+      "properties": {
+        "appIconBase64": { "type": "string" },
+        "avatars": { "type": "array" }
+      }
+    }
+  },
+  "firestore": {
+    "/subjects/{subjectId}": {
+      "schema": "Subject",
+      "description": "School subjects curriculum documents for Accounting, Business Studies, etc."
+    },
+    "/past_papers/{paperId}": {
+      "schema": "PastPaper",
+      "description": "Full past exam paper runs and metadata"
+    },
+    "/questions/{questionId}": {
+      "schema": "Question",
+      "description": "Curriculum questions tagged by subject and paper number"
+    },
+    "/custom_questions/{questionId}": {
+      "schema": "Question",
+      "description": "Custom questions edited or added by administrators"
+    },
+    "/deleted_questions/{questionId}": {
+      "schema": "DeletedQuestion",
+      "description": "Log of questions deleted from active past paper bank"
+    },
+    "/settings/{settingId}": {
+      "schema": "AppSettings",
+      "description": "Application and branding configuration settings"
+    },
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Collection of all student and administrator profiles"
+    },
+    "/user_data/{userId}": {
+      "schema": "UserProgressData",
+      "description": "Per-user cloud synced progress, active paper sessions, and exam history"
+    },
+    "/exam_submissions/{submissionId}": {
+      "schema": "ExamSubmission",
+      "description": "Permanent immutable completed examination records"
+    },
+    "/exam_audit_logs/{logId}": {
+      "schema": "ExamAuditLog",
+      "description": "Audit logs preserving submission transactions and integrity"
+    }
+  }
+}
