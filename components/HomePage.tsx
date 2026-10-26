@@ -42,13 +42,16 @@ import {
   Ruler,
   Briefcase,
   TrendingUp,
-  Calculator as CalcIcon
+  Calculator as CalcIcon,
+  Languages,
+  Sigma
 } from 'lucide-react';
 import { QuizPaper, SUBJECTS, SubjectID } from '@/lib/quiz-data';
 import { getPaperChapterBadge, getPaperChapterNumber } from '@/lib/chapterParser';
 import { groupPapersByTopic, TopicGroup } from '@/lib/topic-curriculum';
 import { useAppTheme } from '@/lib/theme';
 import { ChapterCarouselCard } from './ChapterCarouselCard';
+import { SubjectCarouselCard } from './SubjectCarouselCard';
 import { SubjectTestsView } from './SubjectTestsView';
 import { 
   UserProfile, 
@@ -89,6 +92,10 @@ function TopicIcon({ name, className }: { name: string; className?: string }) {
       return <TrendingUp className={className} />;
     case 'Activity':
       return <Activity className={className} />;
+    case 'Languages':
+      return <Languages className={className} />;
+    case 'Sigma':
+      return <Sigma className={className} />;
     case 'BookOpen':
     default:
       return <BookOpen className={className} />;
@@ -199,6 +206,13 @@ export const HomePage: React.FC<HomePageProps> = ({
   
   // Dedicated Subject Exam Hub Page (when clicking scroller or carousel, directs directly to all tests for that subject)
   const [activeSubjectView, setActiveSubjectView] = useState<SubjectID | null>(null);
+
+  // 6 Standard Grade 12 Subjects sorted consistently
+  const sortedSubjects = useMemo(() => {
+    return [...SUBJECTS].sort((a, b) => (a.id === 'economics' ? -1 : b.id === 'economics' ? 1 : 0));
+  }, []);
+
+  const [subjectCarouselIndex, setSubjectCarouselIndex] = useState<number>(0);
 
   const filteredPapers = useMemo(() => {
     if (selectedSubject === 'all') return papers;
@@ -564,14 +578,14 @@ export const HomePage: React.FC<HomePageProps> = ({
               />
             </div>
           ) : (
-            <div className="h-full flex-1 flex flex-col overflow-hidden gap-1.5">
-              {/* Top Subject Scroller Strip with Light Red Glow */}
+            <div className="h-full flex-1 flex flex-col overflow-hidden gap-2">
+              {/* Top Subject Switcher Strip with Light Red Glow */}
               <div className="flex items-center gap-1.5 overflow-x-auto pb-1 px-1 shrink-0 no-scrollbar">
                 <button 
                   type="button"
                   onClick={() => {
                     setSelectedSubject('all');
-                    setActiveSubjectView(null);
+                    setSubjectCarouselIndex(0);
                   }}
                   className={`px-3 py-1.5 rounded-xl text-xs font-black whitespace-nowrap transition-all cursor-pointer border flex items-center gap-1.5 ${
                     selectedSubject === 'all' 
@@ -582,44 +596,37 @@ export const HomePage: React.FC<HomePageProps> = ({
                   }`}
                 >
                   <Sparkles className="w-3 h-3 text-amber-300" />
-                  <span>All Papers</span>
+                  <span>All 6 Subjects</span>
                   <span className={`px-1.5 py-0.2 rounded-full text-[9px] font-bold ${
                     selectedSubject === 'all' ? 'bg-white/20 text-white' : 'bg-rose-500/10 text-rose-700 dark:bg-rose-500/20 dark:text-rose-300'
                   }`}>
-                    {papers.length}
+                    6
                   </span>
                 </button>
 
-                {[...SUBJECTS].sort((a, b) => (a.id === 'economics' ? -1 : b.id === 'economics' ? 1 : 0)).map((sub) => {
+                {sortedSubjects.map((sub, sIdx) => {
                   const subPapers = papers.filter((p) => p.subjectId === sub.id);
-                  const isSelected = selectedSubject === sub.id;
-                  const isEcon = sub.id === 'economics';
+                  const isCurrentSlide = subjectCarouselIndex === sIdx;
                   return (
                     <button 
                       key={sub.id}
                       type="button"
                       onClick={() => {
                         setSelectedSubject(sub.id);
-                        setActiveSubjectView(sub.id);
+                        setSubjectCarouselIndex(sIdx);
                       }}
                       className={`px-3 py-1.5 rounded-xl text-xs font-black whitespace-nowrap transition-all cursor-pointer border flex items-center gap-1.5 ${
-                        isSelected 
-                          ? isEcon
-                            ? 'bg-gradient-to-r from-rose-600 via-red-500 to-rose-500 border-rose-500 text-white shadow-md shadow-rose-600/30 scale-[1.02]'
-                            : 'bg-gradient-to-r from-red-600 via-rose-600 to-rose-500 border-red-500 text-white shadow-md shadow-rose-600/30 scale-[1.02]' 
-                          : isEcon
-                          ? isDark
-                            ? 'bg-[#220912] border-rose-900/90 text-rose-300 hover:border-rose-600 hover:bg-[#2e0c18]'
-                            : 'bg-rose-50/90 border-rose-300 text-rose-800 hover:border-rose-400 hover:bg-rose-100'
+                        isCurrentSlide 
+                          ? 'bg-gradient-to-r from-red-600 via-rose-600 to-rose-500 border-red-500 text-white shadow-md shadow-rose-600/30 scale-[1.02]' 
                           : isDark 
                           ? 'bg-[#18080c]/80 border-rose-950/80 text-rose-300 hover:border-rose-700 hover:bg-[#200b10]' 
                           : 'bg-rose-50/70 border-rose-200/90 text-rose-900 hover:border-rose-300 hover:bg-rose-100/70'
                       }`}
-                      title={`Open all ${sub.name} tests`}
+                      title={`Jump to ${sub.name}`}
                     >
-                      <span>{sub.name}</span>
+                      <span>{sub.shortName || sub.name}</span>
                       <span className={`px-1.5 py-0.2 rounded-full text-[9px] font-bold ${
-                        isSelected ? 'bg-white/20 text-white' : isEcon ? 'bg-rose-500/20 text-rose-700 dark:text-rose-300' : 'bg-rose-500/15 text-rose-700 dark:text-rose-300'
+                        isCurrentSlide ? 'bg-white/20 text-white' : 'bg-rose-500/15 text-rose-700 dark:text-rose-300'
                       }`}>
                         {subPapers.length}
                       </span>
@@ -628,18 +635,22 @@ export const HomePage: React.FC<HomePageProps> = ({
                 })}
               </div>
 
-              {/* Swipable Looping Chapter Carousel Card (Chapters 1 to 14, unique animations, fills entire screen perfectly) */}
+              {/* 6-Subject Swipe Carousel (Fills the screen, with touch swipe, arrow buttons, and 6 dots) */}
               <div className="h-full flex-1 flex flex-col overflow-hidden">
-                <ChapterCarouselCard
-                  papers={carouselPapers}
-                  currentIndex={currentCarouselIndex}
-                  onSelectIndex={handleSelectCarouselIndex}
-                  onStartAssessment={handleStartPaper}
-                  onOpenIngestionModal={() => onOpenIngestionModal ? onOpenIngestionModal(featuredPaper?.subjectId) : undefined}
-                  onOpenPaperSelector={(subId) => setActiveSubjectView((subId || featuredPaper?.subjectId || 'maths_literacy') as SubjectID)}
-                  savedSession={activeSession}
-                  hasPassed={featuredPaper?.id ? passedChapterIds.has(featuredPaper.id) : false}
-                  bestScore={activePaperBestAttempt?.percentage ?? null}
+                <SubjectCarouselCard
+                  papers={papers}
+                  examHistory={displayedExamHistory}
+                  currentIndex={subjectCarouselIndex}
+                  onSelectIndex={(newIdx) => {
+                    setSubjectCarouselIndex(newIdx);
+                    const targetSub = sortedSubjects[newIdx];
+                    if (targetSub) setSelectedSubject(targetSub.id);
+                  }}
+                  onSelectSubject={(subId) => {
+                    setActiveSubjectView(subId);
+                    setSelectedSubject(subId);
+                  }}
+                  onStartPaper={handleStartPaper}
                 />
               </div>
             </div>
@@ -1695,20 +1706,6 @@ export const HomePage: React.FC<HomePageProps> = ({
           <span className="text-[10px] font-medium">Quizzes</span>
         </button>
 
-        {/* Nav Item: Ingest DBE Paper */}
-        {onOpenIngestionModal && (
-          <button 
-            id="nav-tab-ingest"
-            onClick={() => onOpenIngestionModal?.()}
-            className="flex flex-col items-center gap-1 group cursor-pointer transition-colors text-slate-400 hover:text-rose-600 dark:hover:text-rose-400"
-            title="Ingest DBE Exam Paper & Memo"
-          >
-            <div className={`w-9 h-7 rounded-lg flex items-center justify-center transition-all bg-gradient-to-tr from-red-600 to-rose-500 text-white shadow-xs hover:scale-105 active:scale-95 shadow-rose-600/30`}>
-              <Sparkles className="w-4 h-4 text-amber-200 animate-pulse" />
-            </div>
-            <span className="text-[10px] font-bold text-rose-600 dark:text-rose-400">Ingest</span>
-          </button>
-        )}
 
         {/* Nav Item: Analytics */}
         <button 

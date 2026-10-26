@@ -1,8 +1,8 @@
 'use client';
 
-import React from 'react';
-import { Clock, Volume2, VolumeX, ChevronDown, Home, Sun, Moon, Cloud, Sparkles } from 'lucide-react';
-import { QuizPaper } from '@/lib/quiz-data';
+import React, { useMemo } from 'react';
+import { Clock, Volume2, VolumeX, ChevronDown, Home, Sun, Moon } from 'lucide-react';
+import { QuizPaper, SUBJECTS } from '@/lib/quiz-data';
 import { VintageLifeRing } from '@/components/VintageLifeRing';
 import { useAppTheme } from '@/lib/theme';
 import { PWAInstallButton } from './PWAInstallButton';
@@ -37,6 +37,10 @@ export const QuizHeader: React.FC<QuizHeaderProps> = ({
   isHomeView = false,
 }) => {
   const { toggleTheme, isDark } = useAppTheme();
+
+  const currentSubject = useMemo(() => {
+    return SUBJECTS.find((s) => s.id === currentPaper.subjectId);
+  }, [currentPaper.subjectId]);
 
   const formatTime = (totalSeconds: number) => {
     const mins = Math.floor(totalSeconds / 60);
@@ -84,17 +88,25 @@ export const QuizHeader: React.FC<QuizHeaderProps> = ({
               <button
                 id="header-paper-badge"
                 onClick={onOpenPaperSelector}
-                className="flex flex-col text-left min-w-0 group hover:opacity-95 transition-opacity"
+                className="flex flex-col text-left min-w-0 group hover:opacity-90 transition-opacity cursor-pointer"
+                title="Switch test or subject"
               >
-                <span className="text-[10px] font-bold text-red-600 dark:text-red-400 tracking-wider uppercase truncate">
-                  APEX PAPERS · GRADE 12
-                </span>
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  <span className="text-[10px] font-extrabold text-red-600 dark:text-red-400 tracking-wider uppercase truncate">
+                    {currentSubject ? currentSubject.name : 'GRADE 12 NSC'}
+                  </span>
+                  {currentPaper.code && (
+                    <span className="text-[9px] px-1.5 py-0.2 rounded font-mono font-bold bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300 border border-rose-200/80 dark:border-rose-900/60">
+                      {currentPaper.code}
+                    </span>
+                  )}
+                </div>
 
                 <div className="flex items-center gap-1 min-w-0">
-                  <h1 className="text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white tracking-tight truncate max-w-[120px] xs:max-w-[170px] sm:max-w-xs">
-                    {currentPaper.subtitle}
+                  <h1 className="text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white tracking-tight truncate max-w-[140px] xs:max-w-[190px] sm:max-w-xs">
+                    {currentPaper.subtitle || currentPaper.title}
                   </h1>
-                  <ChevronDown className="w-3 h-3 text-rose-400 dark:text-red-400 shrink-0 group-hover:translate-y-0.5 transition-transform" />
+                  <ChevronDown className="w-3.5 h-3.5 text-rose-500 dark:text-rose-400 shrink-0 group-hover:translate-y-0.5 transition-transform" />
                 </div>
               </button>
             ) : (
@@ -111,33 +123,6 @@ export const QuizHeader: React.FC<QuizHeaderProps> = ({
 
           {/* Right: Timer, Ingest, Google Drive, PWA Install, Theme Switcher, Sound, and Profile Controls */}
           <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
-            {/* AI Paper & Memo Ingestion Button */}
-            {onOpenIngestionModal && (
-              <button
-                id="header-ingest-paper-btn"
-                onClick={onOpenIngestionModal}
-                className="flex items-center gap-1 sm:gap-1.5 px-2.5 py-1.5 rounded-xl bg-gradient-to-r from-red-600 via-rose-600 to-rose-500 hover:from-red-500 hover:to-rose-400 text-white font-extrabold text-[11px] sm:text-xs transition-all cursor-pointer shadow-xs shadow-rose-600/30 shrink-0"
-                title="Ingest DBE Exam Paper & Marking Memo"
-                aria-label="Ingest DBE Paper and Memo"
-              >
-                <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
-                <span className="hidden xs:inline">Ingest Paper</span>
-              </button>
-            )}
-
-            {/* Google Drive Cloud Sync Button */}
-            {onOpenDriveModal && (
-              <button
-                id="header-google-drive-btn"
-                onClick={onOpenDriveModal}
-                className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl flex items-center justify-center text-rose-700 hover:text-red-600 dark:text-rose-300 dark:hover:text-red-400 bg-rose-50/80 hover:bg-rose-100 dark:bg-[#1f0b10] dark:hover:bg-[#2d1017] border border-rose-200 dark:border-rose-900/50 transition-all cursor-pointer shadow-xs"
-                title="Google Drive Cloud Sync & Transcripts"
-                aria-label="Google Drive Sync"
-              >
-                <Cloud className="w-3.5 h-3.5 text-red-600 dark:text-red-400" />
-              </button>
-            )}
-
             {/* PWA / APK Install Button */}
             <PWAInstallButton />
 

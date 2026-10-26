@@ -108,14 +108,17 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     !evaluateQuestionAnswer(selectedAnswer, question).isCorrect
   );
 
+  // Auto-open AI Tutor when an answer is submitted and is incorrect
   useEffect(() => {
     if (isAnswerIncorrect) {
-      console.log('AI Tutor should be opening. isAnswerIncorrect:', isAnswerIncorrect);
       setIsAiTutorOpen(true);
-    } else {
-      setIsAiTutorOpen(false);
     }
-  }, [isAnswerIncorrect, selectedAnswer, question.id]);
+  }, [isAnswerIncorrect]);
+
+  // Reset tutor open state when navigating to another question
+  useEffect(() => {
+    setIsAiTutorOpen(false);
+  }, [question.id]);
 
   // Admin question edit modal state (Requirement 2)
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
@@ -379,6 +382,24 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                 size="sm"
               />
 
+              {/* On-Demand AI Tutor Button */}
+              <button
+                id={`ask-ai-tutor-btn-${currentIndex + 1}`}
+                onClick={() => setIsAiTutorOpen((prev) => !prev)}
+                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-bold transition-all cursor-pointer shadow-xs ${
+                  isAiTutorOpen
+                    ? 'bg-gradient-to-r from-red-600 to-rose-600 text-white border-red-500 shadow-md shadow-rose-600/30'
+                    : isDark
+                    ? 'bg-[#18080c] text-rose-300 border-rose-950/80 hover:border-rose-700 hover:text-rose-100 hover:bg-[#200b10]'
+                    : 'bg-rose-50/80 text-rose-800 border-rose-200 hover:border-rose-300 hover:bg-rose-100'
+                }`}
+                title="Ask AI Exam Tutor for step-by-step DBE guidance"
+                aria-label="Ask AI Tutor"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
+                <span className="hidden xs:inline">AI Tutor</span>
+              </button>
+
               {/* Flag Question Button */}
               <button
                 id={`flag-question-btn-${currentIndex + 1}`}
@@ -504,11 +525,11 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             />
           )}
 
-          {/* AI Tutor Slide-out Guidance */}
-          {isAiTutorOpen && isAnswerIncorrect && (
+          {/* AI Tutor Guidance (Triggered automatically on incorrect answer or on-demand via Ask Tutor button) */}
+          {isAiTutorOpen && (
             <TutorFeedback
               question={question.question}
-              userAnswer={String(selectedAnswer)}
+              userAnswer={selectedAnswer ? String(selectedAnswer) : 'HINT_REQUEST'}
               correctAnswer={String(question.correctAnswer)}
               explanation={question.explanation || 'Refer to official DBE marking guidelines.'}
               onClose={() => setIsAiTutorOpen(false)}

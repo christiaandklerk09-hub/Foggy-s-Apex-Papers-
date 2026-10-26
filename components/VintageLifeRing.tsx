@@ -61,7 +61,8 @@ export const ApexEmblem: React.FC<ApexEmblemProps> = ({
         {/* Inner Shield / Crest */}
         <path
           d="M 24 8 L 37 13 C 37 28, 24 39, 24 41 C 24 39, 11 28, 11 13 Z"
-          fill="url(#apex-shield-grad)"
+          fill="#000000"
+          style={{ backgroundColor: '#000000', textAlign: 'left' }}
           stroke="#9F1239"
           strokeWidth="1"
         />

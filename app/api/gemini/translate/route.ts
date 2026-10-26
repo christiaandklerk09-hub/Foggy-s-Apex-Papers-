@@ -74,7 +74,7 @@ ${explanation ? `Explanation: "${explanation}"` : ''}
 `;
 
     // Prioritize high-throughput flash models
-    const MODELS_TO_TRY = ['gemini-2.0-flash', 'gemini-1.5-flash'];
+    const MODELS_TO_TRY = ['gemini-3.1-flash-lite', 'gemini-3.8-flash', 'gemini-flash-latest'];
     let lastError: unknown = null;
     let responseText: string | null = null;
 

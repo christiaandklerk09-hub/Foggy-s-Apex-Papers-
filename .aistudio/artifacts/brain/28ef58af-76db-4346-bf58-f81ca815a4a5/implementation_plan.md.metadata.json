@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to fix the AI Tutor by updating deprecated Gemini models to supported flash models (gemini-3.1-flash-lite and gemini-3.8-flash), enabling both automatic triggers on incorrect answers and an on-demand Ask Tutor button, and presenting step-by-step DBE memo guidance.",
+  "updatedAt":  "2026-10-26T09:18:30.910936954Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
