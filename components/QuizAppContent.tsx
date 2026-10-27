@@ -384,7 +384,7 @@ export function QuizAppContent() {
         }
       } catch {}
     }
-  }, []);
+  }, [currentPaper.id]);
 
   // Admin Question Delete Callback
   const handleQuestionDeleted = useCallback((deletedId: number) => {
@@ -423,7 +423,7 @@ export function QuizAppContent() {
     setCurrentIndex((prevIdx) => {
       return prevIdx > 0 ? Math.min(prevIdx, Math.max(0, activeQuestions.length - 2)) : 0;
     });
-  }, [activeQuestions.length]);
+  }, [activeQuestions.length, currentPaper.id]);
 
   // Listen for real-time question edits & deletes dispatched from admin modals
   useEffect(() => {

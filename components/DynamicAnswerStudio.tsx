@@ -198,6 +198,19 @@ export const DynamicAnswerStudio: React.FC<DynamicAnswerStudioProps> = ({
             );
           })}
         </div>
+
+        {onRequestTutor && (
+          <div className="mt-2.5 flex items-center justify-between px-1">
+            <button
+              type="button"
+              onClick={onRequestTutor}
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-red-600 dark:text-rose-400 hover:text-red-700 dark:hover:text-rose-300 transition-colors cursor-pointer group"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-500 group-hover:scale-110 transition-transform" />
+              <span>Not sure? Ask AI Tutor for a hint or DBE rubric breakdown</span>
+            </button>
+          </div>
+        )}
       </div>
     );
   }

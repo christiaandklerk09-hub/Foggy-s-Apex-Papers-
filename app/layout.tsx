@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" suppressHydrationWarning className="overflow-x-hidden">
-      <head>
+      <body suppressHydrationWarning className={`${plusJakartaSans.className} ${plusJakartaSans.variable} bg-[#fff5f5] text-slate-800 dark:bg-[#0f0709] dark:text-rose-50 min-h-screen selection:bg-rose-500/30 dark:selection:bg-rose-500/40 font-sans antialiased w-full max-w-[100vw] overflow-x-hidden relative`}>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -101,8 +101,6 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
             `,
           }}
         />
-      </head>
-      <body suppressHydrationWarning className={`${plusJakartaSans.className} ${plusJakartaSans.variable} bg-[#fff5f5] text-slate-800 dark:bg-[#0f0709] dark:text-rose-50 min-h-screen selection:bg-rose-500/30 dark:selection:bg-rose-500/40 font-sans antialiased w-full max-w-[100vw] overflow-x-hidden relative`}>
         {children}
         {/* <OfflineIndicator /> */}
       </body>

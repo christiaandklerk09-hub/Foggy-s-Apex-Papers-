@@ -233,6 +233,7 @@ export function FirestoreDiagnosticsModal({
     if (isOpen) {
       runDiagnostics();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isOpen]);
 
   const handleCopy = () => {

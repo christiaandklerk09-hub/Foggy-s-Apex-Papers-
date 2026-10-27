@@ -40,6 +40,7 @@ import { EconomicsAnnexureViewer } from './EconomicsAnnexureViewer';
 import { EnglishAnswerStudio } from './EnglishAnswerStudio';
 import { AfrikaansAnswerStudio } from './AfrikaansAnswerStudio';
 import { MathAnnexureViewer } from './MathAnnexureViewer';
+import { LanguagePassageViewer } from './LanguagePassageViewer';
 import { DynamicAnswerStudio } from './DynamicAnswerStudio';
 import { evaluateQuestionAnswer } from '@/lib/evaluation';
 
@@ -226,6 +227,62 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
   const isLightRedTopic = true; // All academic topics feature signature light red accents
 
+  const renderFormattedQuestionContent = (text: string) => {
+    if (!text) return null;
+    const lower = text.toLowerCase();
+    const hasScenario = lower.includes('scenario') || lower.includes('extract') || lower.includes('passage') || lower.includes('case study') || text.includes('\n\n');
+
+    if (!hasScenario) {
+      return <MathRenderer text={text} />;
+    }
+
+    const paragraphs = text.split(/\n\n+/).filter((p) => p.trim().length > 0);
+    if (paragraphs.length <= 1) {
+      return <MathRenderer text={text} />;
+    }
+
+    const scenarioParagraphs = paragraphs.slice(0, paragraphs.length - 1);
+    const mainPrompt = paragraphs[paragraphs.length - 1];
+
+    return (
+      <div className="space-y-3.5 w-full">
+        {scenarioParagraphs.map((p, pIdx) => {
+          const pLower = p.toLowerCase().trim();
+          const isInstructionLine = pLower.startsWith('read the scenario') || pLower.startsWith('read the extract') || pLower.startsWith('refer to the');
+
+          if (isInstructionLine) {
+            return (
+              <p key={pIdx} className="text-xs font-black uppercase tracking-wider text-red-600 dark:text-rose-400">
+                <MathRenderer text={p} />
+              </p>
+            );
+          }
+
+          return (
+            <div 
+              key={pIdx} 
+              className={`p-4 rounded-2xl border text-xs sm:text-sm font-serif leading-relaxed shadow-xs ${
+                isDark 
+                  ? 'bg-[#1e080d]/90 border-rose-900/80 text-rose-100 shadow-[0_4px_20px_rgba(0,0,0,0.4)]' 
+                  : 'bg-rose-50/90 border-rose-200 text-slate-900 shadow-[0_4px_15px_rgba(244,63,94,0.06)]'
+              }`}
+            >
+              <div className="flex items-center gap-1.5 mb-2 text-[10px] font-black uppercase tracking-wider text-rose-700 dark:text-rose-300 font-sans border-b border-rose-200/60 dark:border-rose-900/50 pb-1">
+                <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse" />
+                <span>EXAM SCENARIO / EXTRACT / CASE STUDY</span>
+              </div>
+              <MathRenderer text={p} />
+            </div>
+          );
+        })}
+
+        <div className="pt-1 font-extrabold text-base sm:text-xl leading-snug">
+          <MathRenderer text={mainPrompt} />
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="w-full max-w-3xl mx-auto scroll-mt-20">
       <AnimatePresence mode="wait">
@@ -335,8 +392,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
 
 
-              {/* Official DBE Annexures / Addendum Modal Trigger */}
-              {(question.subjectId === 'maths_literacy' || (question.category && question.category.toLowerCase().includes('math')) || (paperId && (paperId.includes('mathlit') || paperId.includes('maths-literacy')))) && (
+              {/* Official DBE Annexures / Addendum / Exam Source Texts Modal Trigger */}
+              {(
+                question.subjectId === 'maths_literacy' || 
+                question.subjectId === 'english_hg' || 
+                question.subjectId === 'afrikaans_fal' || 
+                question.subjectId === 'economics' || 
+                question.subjectId === 'accounting' || 
+                (paperId && (paperId.includes('math') || paperId.includes('eng') || paperId.includes('afr') || paperId.includes('econ') || paperId.includes('accounting')))
+              ) && (
                 <button
                   id={`annexure-btn-${currentIndex + 1}`}
                   onClick={() => setShowAnnexureModal(true)}
@@ -345,11 +409,13 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                       ? 'bg-[#240c12] border-red-900/80 text-rose-300 hover:bg-[#34111a] hover:border-red-500'
                       : 'bg-red-50 border-red-200 text-red-700 hover:bg-red-100 hover:border-red-300'
                   }`}
-                  title="View Official DBE NSC Exam Addendum & Annexures"
-                  aria-label="View Annexures"
+                  title="View Official DBE NSC Exam Addendum, Annexures & Reading Texts"
+                  aria-label="View Annexures & Texts"
                 >
                   <FileText className="w-3.5 h-3.5 text-red-600 dark:text-red-400" />
-                  <span className="hidden xs:inline">Addendum</span>
+                  <span className="hidden xs:inline">
+                    {question.subjectId === 'english_hg' ? 'Exam Texts' : question.subjectId === 'afrikaans_fal' ? 'Eksamentekste' : 'Addendum'}
+                  </span>
                 </button>
               )}
 
@@ -397,7 +463,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                 aria-label="Ask AI Tutor"
               >
                 <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
-                <span className="hidden xs:inline">AI Tutor</span>
+                <span className="hidden xs:inline">{isAiTutorOpen ? 'Close Tutor' : 'AI Tutor'}</span>
               </button>
 
               {/* Flag Question Button */}
@@ -469,22 +535,31 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
               </div>
             )}
 
-            <div className="flex items-start justify-between gap-3">
-              <h2 
+            <div className="flex items-start justify-between gap-3 w-full">
+              <div 
                 id={`question-title-${currentIndex + 1}`}
-                className={`text-lg sm:text-2xl font-bold leading-snug tracking-tight flex-1 ${
+                className={`text-lg sm:text-2xl font-bold leading-snug tracking-tight flex-1 w-full ${
                   isDark ? 'text-white' : 'text-slate-900'
                 }`}
               >
-                <MathRenderer text={isDisplayingTranslated ? activeTranslation.translatedQuestion : question.question} />
-              </h2>
+                {renderFormattedQuestionContent(isDisplayingTranslated ? activeTranslation.translatedQuestion : question.question)}
+              </div>
             </div>
           </div>
 
-          {/* On-Screen Interactive Graph / Visual Asset (Only for non-Math subjects; Math Lit uses dedicated MathAnnexureViewer) */}
-          {question.subjectId !== 'maths_literacy' && !paperId?.includes('mathlit') && !paperId?.includes('maths-literacy') && (
-            <QuestionVisualAsset question={question} currentIndex={currentIndex} />
+          {/* AI Exam Tutor (Opens right under Question Prompt for immediate visibility and focused study) */}
+          {isAiTutorOpen && (
+            <TutorFeedback
+              question={question.question}
+              userAnswer={selectedAnswer ? String(selectedAnswer) : 'HINT_REQUEST'}
+              correctAnswer={String(question.correctAnswer)}
+              explanation={question.explanation || 'Refer to official DBE marking guidelines.'}
+              onClose={() => setIsAiTutorOpen(false)}
+            />
           )}
+
+          {/* On-Screen Interactive Graph / Visual Asset */}
+          <QuestionVisualAsset question={question} currentIndex={currentIndex} />
 
           {/* Specialized NSC Multi-Column Ledger Formats (for custom accounting exercises 101, 102, 103) */}
           {(question.subjectId === 'accounting' && [101, 102, 103].includes(question.id)) && (
@@ -496,18 +571,34 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
           )}
 
           {/* Official South African NSC Annexures for Economics (Tables, Extracts, Graphs, Cartoons) */}
-          {(question.subjectId === 'economics' || (question.category && question.category.toLowerCase().includes('economic')) || (paperId && paperId.includes('econ'))) && (
+          {(question.subjectId === 'economics' || (question.category && question.category.toLowerCase().includes('economic')) || (paperId && paperId.includes('econ')) || question.question.toLowerCase().includes('extract')) && (
             <EconomicsAnnexureViewer 
               question={question} 
               currentIndex={currentIndex} 
             />
           )}
 
-          {/* Official South African NSC Annexures for Mathematical Literacy (Annexure A, B, C) */}
-          {(question.subjectId === 'maths_literacy' || (question.category && question.category.toLowerCase().includes('math')) || (paperId && paperId.includes('mathlit')) || (paperId && paperId.includes('maths-literacy'))) && (
+          {/* Official South African NSC Annexures for Mathematical Literacy & Math Questions */}
+          {(question.annexureRef || question.subjectId === 'maths_literacy' || (question.category && question.category.toLowerCase().includes('math')) || (paperId && (paperId.includes('math') || paperId.includes('mathlit')))) && (
             <MathAnnexureViewer 
               question={question} 
               currentIndex={currentIndex} 
+            />
+          )}
+
+          {/* Official South African NSC Reading Passages & Texts for English & Afrikaans */}
+          {(question.subjectId === 'english_hg' || 
+            question.subjectId === 'afrikaans_fal' || 
+            paperId?.includes('english') || 
+            paperId?.includes('afrikaans') || 
+            question.category?.toLowerCase().includes('english') || 
+            question.category?.toLowerCase().includes('afrikaans') || 
+            question.question.toLowerCase().includes('text a') || 
+            question.question.toLowerCase().includes('teks a')) && (
+            <LanguagePassageViewer 
+              question={question} 
+              currentIndex={currentIndex} 
+              paperId={paperId}
             />
           )}
 
@@ -524,33 +615,31 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
               onRequestTutor={() => setIsAiTutorOpen(true)}
             />
           )}
-
-          {/* AI Tutor Guidance (Triggered automatically on incorrect answer or on-demand via Ask Tutor button) */}
-          {isAiTutorOpen && (
-            <TutorFeedback
-              question={question.question}
-              userAnswer={selectedAnswer ? String(selectedAnswer) : 'HINT_REQUEST'}
-              correctAnswer={String(question.correctAnswer)}
-              explanation={question.explanation || 'Refer to official DBE marking guidelines.'}
-              onClose={() => setIsAiTutorOpen(false)}
-            />
-          )}
           
-          {question.question.toLowerCase().includes('annexure') && (
-            <button
-              onClick={() => setShowAnnexureModal(true)}
-              className="mt-4 flex items-center gap-2 px-4 py-2 bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-200 rounded-xl font-bold text-xs hover:bg-rose-200 dark:hover:bg-rose-900 transition-colors"
-            >
-              <FileText className="w-4 h-4" />
-              View Annexure
-            </button>
+          {/* View Official Annexure Modal Button */}
+          {(question.annexureRef || 
+            question.question.toLowerCase().includes('annexure') || 
+            question.question.toLowerCase().includes('addendum') || 
+            question.question.toLowerCase().includes('refer to') || 
+            question.category?.toLowerCase().includes('annexure')) && (
+            <div className="mt-4 flex items-center gap-2 flex-wrap">
+              <button
+                type="button"
+                onClick={() => setShowAnnexureModal(true)}
+                className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-red-600 via-rose-600 to-rose-500 hover:from-red-500 hover:to-rose-500 text-white rounded-xl font-bold text-xs shadow-md shadow-rose-600/30 transition-all cursor-pointer"
+              >
+                <FileText className="w-4 h-4 text-amber-300 animate-pulse" />
+                <span>View Official DBE Annexure / Addendum</span>
+              </button>
+
+              {question.annexureRef && (
+                <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-lg bg-rose-100 dark:bg-rose-950/80 text-rose-800 dark:text-rose-200 border border-rose-200 dark:border-rose-900/60">
+                  {question.annexureRef}
+                </span>
+              )}
+            </div>
           )}
 
-          <AnnexureModal
-            isOpen={showAnnexureModal}
-            onClose={() => setShowAnnexureModal(false)}
-            initialAnnexureId="annexure_a"
-          />
 
           {/* Bottom Card Navigation & Controls */}
           <div className={`pt-4 border-t flex items-center justify-between gap-2 sm:gap-3 flex-wrap ${
@@ -681,18 +770,21 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         />
       )}
 
-      {/* Official Exam Addendum Modal */}
+      {/* Official Exam Addendum & Resource Center Modal */}
       <AnnexureModal
         isOpen={showAnnexureModal}
         onClose={() => setShowAnnexureModal(false)}
+        question={question}
+        paperId={paperId}
         initialAnnexureId={
-          question.id >= 722 && question.id <= 726 ? 'annexure_a' :
+          question.annexureRef ||
+          (question.id >= 722 && question.id <= 726 ? 'annexure_a' :
           question.id >= 734 && question.id <= 736 ? 'annexure_b' :
           question.id >= 744 && question.id <= 747 ? 'annexure_c' :
           question.id >= 701 && question.id <= 705 ? 'table_1' :
           question.id >= 706 && question.id <= 710 ? 'graph_1_2' :
           question.id >= 716 && question.id <= 721 ? 'table_2' :
-          question.id >= 748 && question.id <= 751 ? 'table_7_8' : 'annexure_a'
+          question.id >= 748 && question.id <= 751 ? 'table_7_8' : 'annexure_a')
         }
       />
     </div>

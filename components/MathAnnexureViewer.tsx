@@ -23,35 +23,39 @@ import { useAppTheme } from '@/lib/theme';
 import { Question } from '@/types/quiz';
 
 interface MathAnnexureViewerProps {
-  question: Question;
+  question?: Question;
   currentIndex?: number;
+  forcedAnnexureId?: string;
+  hideHeader?: boolean;
 }
 
 export const MathAnnexureViewer: React.FC<MathAnnexureViewerProps> = ({
   question,
-  currentIndex = 0
+  currentIndex = 0,
+  forcedAnnexureId,
+  hideHeader = false,
 }) => {
   const { isDark } = useAppTheme();
   const [isExpanded, setIsExpanded] = useState(true);
 
-  // Check explicit question.annexureRef first, then text matching fallback
-  const ref = question.annexureRef || '';
-  const qText = (question.question || '').toLowerCase();
-  const qCat = (question.category || '').toLowerCase();
-  const combined = qText + ' ' + qCat;
+  // Check explicit forcedAnnexureId or question.annexureRef first, then text matching fallback
+  const targetId = (forcedAnnexureId || question?.annexureRef || '').toLowerCase();
+  const qText = (question?.question || '').toLowerCase();
+  const qCat = (question?.category || '').toLowerCase();
+  const combined = qText + ' ' + qCat + ' ' + targetId;
 
-  const isTable1 = ref === 'table_1_fuel_prices' || combined.includes('table 1') || combined.includes('fuel price') || combined.includes('zimbabwe') || combined.includes('angola') || combined.includes('botswana');
-  const isGraph1_2 = ref === 'graph_1_2_energy_sources' || combined.includes('graph 1.2') || combined.includes('energy source') || combined.includes('paraffin') || combined.includes('cooking');
-  const isSheet1_3 = ref === 'sheet_1_3_reading_survey' || combined.includes('sheet 1.3') || combined.includes('reading habit') || combined.includes('survey');
-  const isTable2 = ref === 'table_2_car_financing' || combined.includes('table 2') || combined.includes('ford figo') || combined.includes('vw polo') || combined.includes('residual value');
-  const isAnnexureA = ref === 'annexure_a_cellphone_invoice' || combined.includes('annexure a') || combined.includes('cellphone invoice') || combined.includes('mr sj fortune') || combined.includes('abc plan');
-  const isTable3 = ref === 'table_3_dam_levels' || combined.includes('table 3') || combined.includes('dam') || combined.includes('theewaterskloof') || combined.includes('storage capacity');
-  const isAnnexureB = ref === 'annexure_b_showerheads' || combined.includes('annexure b') || combined.includes('showerhead') || combined.includes('low-flow') || combined.includes('energy use per shower');
-  const isTable4_5 = ref === 'table_4_5_biryani_costs' || combined.includes('table 4') || combined.includes('table 5') || combined.includes('biryani') || combined.includes('bobby') || combined.includes('chicken biryani');
-  const isTable6 = ref === 'table_6_biryani_graph' || combined.includes('table 6') || combined.includes('janet') || combined.includes('number of plates') || combined.includes('answer sheet 4.2.2');
-  const isAnnexureC = ref === 'annexure_c_tourist_arrivals' || combined.includes('annexure c') || combined.includes('tourist arrivals') || combined.includes('bangladesh') || combined.includes('india');
-  const isTable7_8 = ref === 'table_7_8_sars_tax' || combined.includes('table 7') || combined.includes('table 8') || combined.includes('tax bracket') || combined.includes('marius') || combined.includes('sars');
-  const isBoxPlot = ref === 'box_plot_5_2_laptop_brands' || combined.includes('box-and-whisker') || combined.includes('laptop brand') || combined.includes('huawei') || combined.includes('samsung') || combined.includes('apple');
+  const isTable1 = targetId.includes('table_1') || targetId.includes('fuel') || combined.includes('table 1') || combined.includes('fuel price') || combined.includes('zimbabwe') || combined.includes('angola') || combined.includes('botswana');
+  const isGraph1_2 = targetId.includes('graph_1_2') || targetId.includes('energy') || combined.includes('graph 1.2') || combined.includes('energy source') || combined.includes('paraffin') || combined.includes('cooking');
+  const isSheet1_3 = targetId.includes('sheet_1_3') || targetId.includes('reading') || combined.includes('sheet 1.3') || combined.includes('reading habit') || combined.includes('survey');
+  const isTable2 = targetId.includes('table_2') || targetId.includes('car') || combined.includes('table 2') || combined.includes('ford figo') || combined.includes('vw polo') || combined.includes('residual value');
+  const isAnnexureA = targetId.includes('annexure_a') || targetId.includes('cellphone') || combined.includes('annexure a') || combined.includes('cellphone invoice') || combined.includes('mr sj fortune') || combined.includes('abc plan');
+  const isTable3 = targetId.includes('table_3') || targetId.includes('dam') || combined.includes('table 3') || combined.includes('theewaterskloof') || combined.includes('storage capacity');
+  const isAnnexureB = targetId.includes('annexure_b') || targetId.includes('shower') || combined.includes('annexure b') || combined.includes('showerhead') || combined.includes('low-flow') || combined.includes('energy use per shower');
+  const isTable4_5 = targetId.includes('table_4_5') || targetId.includes('table_4') || targetId.includes('table_5') || targetId.includes('biryani_cost') || combined.includes('table 4') || combined.includes('table 5') || combined.includes('biryani') || combined.includes('bobby') || combined.includes('chicken biryani');
+  const isTable6 = targetId.includes('table_6') || targetId.includes('biryani_graph') || combined.includes('table 6') || combined.includes('janet') || combined.includes('number of plates') || combined.includes('answer sheet 4.2.2');
+  const isAnnexureC = targetId.includes('annexure_c') || targetId.includes('tourist') || combined.includes('annexure c') || combined.includes('tourist arrivals') || combined.includes('bangladesh') || combined.includes('india');
+  const isTable7_8 = targetId.includes('table_7_8') || targetId.includes('table_7') || targetId.includes('table_8') || targetId.includes('tax') || combined.includes('table 7') || combined.includes('table 8') || combined.includes('tax bracket') || combined.includes('marius') || combined.includes('sars');
+  const isBoxPlot = targetId.includes('box_plot') || targetId.includes('laptop') || combined.includes('box-and-whisker') || combined.includes('laptop brand') || combined.includes('huawei') || combined.includes('samsung') || combined.includes('apple');
 
   const hasAnnexure = isTable1 || isGraph1_2 || isSheet1_3 || isTable2 || isAnnexureA || isTable3 || isAnnexureB || isTable4_5 || isTable6 || isAnnexureC || isTable7_8 || isBoxPlot;
 
